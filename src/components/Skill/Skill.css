@@ -70,26 +70,14 @@
   }
 }
 
-@media screen and (max-width: 412px) {
+
+@media screen and (min-width: 320px) and (max-width: 384px){
   .container-skill {
-    width: 412px;
+    width: 370px;
   }
   
   
   .container-carrusel {
-    width: 412px;
+    width: 370px;
   }
 }
-
-
-@media screen and (max-width: 375px){
-  .container-skill {
-    width: 375px;
-  }
-  
-  
-  .container-carrusel {
-    width: 375px;
-  }
-}
-

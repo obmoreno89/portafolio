@@ -407,41 +407,15 @@
   }
 }
 
-@media screen and (max-width: 412px){
+
+@media screen and (min-width: 320px) and (max-width: 384px){
   .container {
-    width: 412px;
-    
+    width: 369px;
   }
   
   .container-title {
-    width: 379px;
+    width: 358px;
     margin-left: 5px;
-   
-  }
-
-  .container-web {
-    width: 89%;
-}
-
-  .container-window {
-    width: 90%;
-    margin-left: 16px;
-}
-
-.container-data {
-  width: 370px;
-}
-}
-
-@media screen and (max-width: 375px) {
-  .container {
-    width: 375px;
-    
-  }
-  
-  .container-title {
-    width: 360px;
-    margin-left: 8px;
    
   }
   .container-title .container-profession {
@@ -458,7 +432,7 @@
   }
 
   .container-web {
-    width: 89%;
+    width: 88%;
 }
 
   .container-window {
@@ -476,7 +450,10 @@
   width: 360px;
 }
 .container-data {
-  width: 360px;
-}
+  width: 346px;
 }
 
+.container-personal {
+  width: 353px;
+}
+}

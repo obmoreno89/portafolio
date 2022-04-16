@@ -291,21 +291,22 @@
       }
     
   }
-  @media screen and (max-width: 412px){
-   
+
+
+@media screen and (min-width: 320px) and (max-width: 384px){
     .container-contact{
-        width: 412px;
+        width: 370px;
         
     }
     
     .container-contact-title{
-        width: 93%;
-        left: 5px;
+        width: 96%;
+        left: 8px;
     }
     
     .container-contact-information{
-        width: 93%;
-        left: 5px;
+        width: 96%;
+        left: 8px;
     }
     
     .information-title h1{
@@ -322,11 +323,3 @@
         height:35px;
       }
   }
-
-  @media screen and (max-width: 375px) {
-    .container-contact{
-        width: 375px;        
-    }
-  }
-
-  

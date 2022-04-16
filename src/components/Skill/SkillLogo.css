@@ -154,3 +154,9 @@
   }
   
 }
+
+@media screen and (min-width: 320px) and (max-width: 384px){
+  .container-carrusel-logo {
+    width: 235px;
+}
+}

@@ -291,26 +291,13 @@
   }
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (min-width: 320px) and (max-width: 384px){
   .container-aboutme {
-    width: 412px;
-    
+    width: 370px;
 }
-
-.container-aboutme-title {
-  width: 90%;
-  left: 5px;
-}
-
-}
-
-@media screen and (max-width: 375px) {
-  .container-aboutme {
-    width: 375px;
-}
-
 .container-aboutme-title {
   width: 95%;
+  left: 8px;
 }
 
 .container-html {
@@ -318,8 +305,7 @@
 }
 
 .container-aboutme-image img {
-  left: 55px;
+  left: 40px;
   top: 30px;
 }
 }
-
