@@ -1,0 +1,99 @@
+@import url("../css/Var.css");
+
+
+.container-proyects{
+    width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+   
+}
+
+.container-proyects-title{
+    width: 90%;
+    position: relative;
+    left: 48px;
+}
+
+.container-proyects-title h1{
+    width: 100%;
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 80px;
+  
+}
+
+@media screen and (max-width: 1024px) {
+    .container-proyects{
+        width: 1024px;
+    }
+    
+    .container-proyects-title{
+        width: 96%;
+        left: 20px;
+    }
+    
+    .container-proyects-title h1{
+        font-size: 3.5rem;
+      
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container-proyects{
+        width: 768px;
+    }
+    
+    .container-proyects-title{
+        width: 95.5%;
+    }
+    
+    .container-proyects-title h1{
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .container-proyects{
+        width: 468px;   
+    }
+    
+    .container-proyects-title{
+        width: 96%;
+        position: relative;
+        left: 10px;
+    }
+    
+    .container-proyects-title h1{
+        width: 100%;
+        font-size: 3.5rem;
+        color: white;
+        margin-bottom: 80px;
+      
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .container-proyects{
+        width: 425px;   
+    }
+    
+}
+
+@media screen and (max-width: 375px){
+    .container-proyects{
+        width: 375px;   
+    }
+}
+
+@media screen and (max-width: 412px){
+    .container-proyects{
+        width: 412px;   
+    }
+    
+    .container-proyects-title{
+        width: 93%;
+        left: 5px;
+    }
+    
+}

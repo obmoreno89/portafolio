@@ -1,0 +1,140 @@
+import React from 'react';
+import Carousel from 'react-elastic-carousel';
+import './App.css';
+import Menu from './components/Menu/Menu';
+import AboutMe from './components/AboutMe/AboutMe';
+import Skill from './components/Skill/Skill';
+import SkillLogo from './components/Skill/SkillLogo';
+import About from './components/About/About';
+import ProyectsLeft from './components/Proyects/ProyectsLeft';
+import ProyectsRight from './components/Proyects/ProyectsRight';
+import ProyectsHeader from './components/Proyects/ProyectsHeader';
+import ProyectsIcon from './components/Proyects/ProyectsIcon';
+import Contact from './components/Contact/Contact';
+
+function App() {
+  const breakPoints = [
+    { width: 1, itemsToShow: 1, pagination: false },
+    { width: 550, itemsToShow: 2, itemsToScroll: 2, pagination: false },
+    { width: 850, itemsToShow: 3 },
+    { width: 1150, itemsToShow: 3, itemsToScroll: 2 },
+    { width: 1450, itemsToShow: 4 },
+  ];
+
+  return (
+    <div className='App'>
+      <Menu
+        about='Sobre mi'
+        proyects='Proyectos'
+        skill='Herramientas'
+        contact='Contacto'
+        linkedin='linkedin'
+        github='github'
+        twitter='twitter'
+      />
+
+      <AboutMe
+        hello='¡Hola!'
+        name='Soy Omar Barragán'
+        profession='Frontend Developer.'
+        cv='Descargar CV'
+        url='obmoreno89.com'
+        personal='.DatosPersonales'
+        mail='Mail:'
+        adress='obmoreno89@gmail.com'
+        city=' Localidad:'
+        country='Orizaba, Veracruz'
+        education='.Educación'
+        school=' UNADM:'
+        engineer='Ingeniería en Desarrollo de Software'
+        plataform='Platzi:'
+        especiality='Frontend Courses'
+        photo='obm'
+      />
+
+      <About
+        aboutme='Sobre mi...'
+        url='obmoreno89.com'
+        folder='Portafolio'
+        iconHtml='html'
+        index='index.html'
+        iconCss='css'
+        style='style.css'
+        openArticle='<article>'
+        openP1='<p>'
+        information1='Soy un desarrollador web mexicano, recién egresado en la carrera de ingeniería en desarrollo de software, actualmente me encuentro fortaleciendo mis habilidades, como programador y buscando mi primer trabajo laboral en esta área'
+        closedP1='</p>'
+        openP2='<p>'
+        information2='Me gusta aprovechar todos los recursos online, así mismo estudio de forma autodidacta, con el objetivo de ser un desarrollador capaz de encontrar soluciones, sostificadas a problemas complejos y/o robustos'
+        closedP2='</p>'
+        closedArticle='</article>'
+      />
+
+      <Skill skill='Herramientas'>
+        <Carousel breakPoints={breakPoints}>
+          <SkillLogo title='HTML' level='Intermedio' language='html' />
+          <SkillLogo title='CSS' level='Intermedio' language='css' />
+          <SkillLogo title='JavaScript' level='Intermedio' language='js' />
+          <SkillLogo title='React' level='Basico' language='react' />
+          <SkillLogo title='Bootstrap' level='Basico' language='bootstrap' />
+          <SkillLogo title='Python' level='Intermedio' language='python' />
+          <SkillLogo title='MySQL' level='Basico' language='mysql' />
+          <SkillLogo title='Git' level='Basico' language='git' />
+        </Carousel>
+      </Skill>
+
+      <ProyectsHeader title='Proyectos'>
+        <ProyectsLeft
+          titleSection='Layout Portafolio'
+          proyects='proyect-1'
+          description='Mini proyecto creado solo con HTML y CSS, en lo que se pone en práctica flexbox, grid y responsive design.'
+          code='Ver Codigo'
+          demo='Demo'
+          urlCode='https://github.com/obmoreno89/layout-protafolio'
+          urlDemo='https://obmoreno89.github.io/layout-protafolio/'>
+          <ProyectsIcon logo='css' />
+          <ProyectsIcon logo='html' />
+        </ProyectsLeft>
+
+        <ProyectsRight
+          title='The Bank'
+          description='Es un proyecto en el cual se simulan las operaciones de un banco, con un login para ingresar a la cuenta'
+          code='Ver Codigo'
+          demo='Demo'
+          proyects='proyect-2'
+          urlCode='https://github.com/obmoreno89/the-bank'
+          urlDemo='https://obmoreno89.github.io/the-bank/'>
+          <ProyectsIcon logo='html' />
+          <ProyectsIcon logo='css' />
+          <ProyectsIcon logo='js' />
+        </ProyectsRight>
+
+        <ProyectsLeft
+          titleSection='Pig Game'
+          proyects='proyect-3'
+          description=' Un juego de dados de riesgo muy simple en el que dos jugadores compiten para llegar a 100 puntos.'
+          code='Ver Codigo'
+          demo='Demo'
+          urlCode='https://github.com/obmoreno89/pig-game'
+          urlDemo='https://obmoreno89.github.io/pig-game/'>
+          <ProyectsIcon logo='css' />
+          <ProyectsIcon logo='html' />
+          <ProyectsIcon logo='js' />
+        </ProyectsLeft>
+      </ProyectsHeader>
+
+      <Contact
+        title='Contacto'
+        titleInformation='¿Tienes un proyecto en mente? ¡Hagámoslo realidad!'
+        textContact='¡Me gustaría tener tu contacto!'
+        linkedin='linkedin'
+        github='github'
+        twitter='twitter'
+        meDev='Omar Barragán Moreno - Desarrollador Web'
+        copyright='2022 - Todos los derechos reservados'
+      />
+    </div>
+  );
+}
+
+export default App;

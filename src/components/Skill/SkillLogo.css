@@ -1,0 +1,156 @@
+@import url('../css/Var.css');
+
+.container-carrusel-logo {
+  width: 350px;
+  height: 300px;
+  border-radius: 20px 20px 0px 0px;
+  background: linear-gradient(180deg, #171a1b 0%, rgba(23, 26, 27, 0) 100%);
+  opacity: 0.8;
+  
+}
+
+.container-carrusel-circle {
+  width: 20%;
+  height: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.circle-red {
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  background-color: var(--red);
+}
+
+.circle-yellow {
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  background-color: var(--yellow);
+}
+
+.circle-green {
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  background-color: var(--green);
+}
+
+.container-logo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-logo h3 {
+  font-size: 2rem;
+  position: relative;
+  color: var(--white);
+}
+
+.container-logo h5 {
+  font-size: 1.5rem;
+  position: relative;
+  color: var(--white);
+  font-weight: 200;
+}
+
+.container-logo img {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  transition: all 1.2s ease;
+}
+
+
+.container-logo img:hover {
+  animation: shake 1s forwards;
+}
+
+
+@keyframes shake{
+  10%{
+    transform: rotate(15deg);
+  }
+
+  20%{
+    transform: rotate(-15deg);
+  }
+  30%{
+    transform: rotate(15deg);
+  }
+  50%{
+    transform: rotate(0deg);
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .container-carrusel-logo {
+    width: 270px;
+    
+  }
+  
+  .container-logo img {
+    width: 200px;
+    height: 200px;
+  }
+  
+}
+
+@media screen and (max-width: 768px){
+
+  
+
+  .container-logo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-carrusel-logo {
+    width: 280px;
+    height: 200px;
+  }
+
+  .container-logo h3 {
+    font-size: 1.7rem;
+  }
+
+  .container-logo img {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    transition: all 1.2s ease;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .container-carrusel-logo {
+    width: 250px;
+    height: 250px;
+  }
+  
+  
+  .container-logo h3 {
+    font-size: 1.5rem;
+  }
+  
+  .container-logo h5 {
+    font-size: 1.2rem;
+  }
+  
+  .container-logo img {
+    width: 125px;
+    height: 125px;
+  }
+  
+}

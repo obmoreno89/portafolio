@@ -1,0 +1,45 @@
+@import url("./components/css/Var.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ outline: 1px solid white;
+  
+}
+
+html,
+body {
+  font-size: 62.5%;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;    
+}
+
+/* square buttons */
+.rec.rec-arrow {
+  visibility: hidden;
+ 
+}
+
+button.rec-dot{
+  border-radius: 0;
+  background-color: aqua;
+  box-shadow: 0 0 1px 2px var(--gray);
+}
+
+button.rec-dot:hover, button.rec-dot:active, button.rec-dot:focus  {
+  box-shadow: 0 0 1px 3px var(--aqua);
+  background-color: transparent;
+ 
+}
+
+.App{
+  background-image: linear-gradient(
+    to top,
+    #000000,
+    #0c0c0c,
+    #252525,
+    #161616c6,
+    #000000
+  );
+}
+

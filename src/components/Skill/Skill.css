@@ -1,0 +1,94 @@
+@import url('../css/Var.css');
+
+.container-skill {
+  width: 1440px;
+  height: 660px;
+  margin: 0 auto;
+}
+
+
+.container-carrusel {
+  height: 400px;
+  position: relative;
+  top: 50px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .container-skill {
+  width: 1024px;
+}
+
+
+.container-carrusel {
+  width: 1024px;
+  height: 400px;
+  position: relative;
+  top: 50px;
+  display: flex;
+  align-items: center;
+}
+}
+
+
+@media screen and (max-width: 768px){
+  .container-skill {
+    width: 768px;
+    height: 400px;
+   
+  }
+  
+  
+  .container-carrusel {
+    width: 768px;
+   height: 250px;
+   
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .container-skill {
+    width: 468px;
+    height: 600px;
+  }
+  
+  
+  .container-carrusel {
+    width: 468px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container-skill {
+    width: 425px;
+  }
+  
+  
+  .container-carrusel {
+    width: 425px;
+  }
+}
+
+
+@media screen and (max-width: 375px){
+  .container-skill {
+    width: 375px;
+  }
+  
+  
+  .container-carrusel {
+    width: 375px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .container-skill {
+    width: 412px;
+  }
+  
+  
+  .container-carrusel {
+    width: 412px;
+  }
+}

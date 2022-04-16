@@ -1,0 +1,110 @@
+@import url("./ProyectsLeft.css");
+@import url("../css/Var.css");
+
+.container-proyects-personal2{
+    height: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    width: 93%;
+    margin-left: 48px;  
+    
+}
+
+.container-proyects-description2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 40px;
+    align-items: flex-end;
+    
+}
+
+.container-proyects-description2 h1{
+    font-size: 2.5rem;
+    color: var(--aqua);
+}
+
+.container-proyects-description2 p{
+    font-size: 2rem;
+    color: var(--white);
+    text-align: -webkit-right;
+}
+
+.container-proyects-image2 img{
+   width: 100%;
+   height: 100%;
+   border: 1px solid var(--gray);
+    border-radius: 10px;
+
+  
+}
+
+
+@media screen and (max-width: 1024px) {
+    .container-proyects-personal2{
+        width: 96%;
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+    
+    .container-proyects-image2 img{
+       width: 100%;
+       height: 100%;
+       border: 1px solid var(--gray);
+        border-radius: 10px;
+        object-fit: cover;  
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-proyects-personal2{
+        height: 660px;
+       display: flex;
+       flex-direction: column-reverse;
+        width: 96%;
+        margin-left: 20px;  
+        
+    }
+    
+    .container-proyects-description2{
+        align-items: center;
+        
+    }
+    
+    .container-proyects-description2 h1{
+        font-size: 2.5rem;
+        color: var(--aqua);
+    }
+    
+    .container-proyects-description2 p{
+       text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 468px){
+    .container-proyects-personal2{
+        width: 96%;
+        margin-left: 10px;  
+        
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container-proyects-personal2{
+        margin-left: 7px;  
+        
+    }
+}
+
+@media screen and (max-width: 412px){
+    .container-proyects-personal2{
+        width: 93%;
+        margin-left: 5px;  
+        
+    }
+    
+}
