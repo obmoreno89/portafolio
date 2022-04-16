@@ -100,14 +100,15 @@
      
   }
 
-  @media screen and (width: 823px) {
+  @media screen and (min-width: 823px) and (max-width: 914px){
     .container-proyects-personal{
-        height: 700px;
+        height: 750px;
         display: flex;
         flex-direction: column;
         margin-top: 50px;
         width: 96.5%;
         margin-left: 10px;
+        text-align: center;
     }
 
     .container-proyects-icon {

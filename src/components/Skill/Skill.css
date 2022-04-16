@@ -29,16 +29,16 @@
 }
 }
 
-@media screen and (max-width: 823px) {
+@media screen and (min-width: 823px) and (max-width: 914px){
   .container-skill {
-    width: 823px;
+    width: 100%;
     height: 660px;
     margin: 0 auto;
   }
   
   
   .container-carrusel {
-    width: 823px;
+    width: 100%;
     height: 450px;
     position: relative;
    

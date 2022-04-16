@@ -39,9 +39,9 @@
 }
 
 
-@media screen and (max-width: 823px) {
+@media screen and (min-width: 823px) and (max-width: 914px) {
     .container-proyects{
-        width: 823px;   
+        width: 100%;   
     }
     
     .container-proyects-title{

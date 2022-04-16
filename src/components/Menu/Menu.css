@@ -73,7 +73,7 @@ header img:hover {
 
 @media screen and (min-width: 823px) and (max-width: 914px){
   header {
-    width: 914px;
+    width: 100%;
   }
   
   .container-menu .link {
@@ -88,7 +88,7 @@ header img:hover {
   }
 }
 
-/* @media (max-width: 768px){
+@media (max-width: 768px){
   header {
     width: 768px;
   }
@@ -97,7 +97,7 @@ header img:hover {
     margin-left: 20px;   
   }
   
-} */
+}
 
 @media screen and (max-width: 468px) {
   header {
