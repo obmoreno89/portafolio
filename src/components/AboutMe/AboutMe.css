@@ -245,9 +245,9 @@
   }
 }
 
-@media screen and (max-width: 823px) {
+@media screen and (min-width: 823px) and (max-width: 914px) {
   .container {
-    width: 823px;
+    width: 914px;
     height: 900px;
     display: flex;
     flex-direction: column;
@@ -279,7 +279,7 @@
   }
   
   .container-title p {
-    left: 308px;
+    left: 350px;
     margin-top: 10px;
     position: relative;
   }
@@ -311,7 +311,7 @@
     height: 200px;
   }
 }
-
+/* 
 @media screen and (max-width: 768px){
   .container {
     width: 768px;
@@ -361,7 +361,7 @@
   }
   
   
-}
+} */
 
 @media screen and (max-width: 468px) {
   .container {
