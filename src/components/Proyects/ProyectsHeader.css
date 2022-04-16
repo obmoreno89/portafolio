@@ -80,20 +80,21 @@
     
 }
 
-@media screen and (max-width: 375px){
-    .container-proyects{
-        width: 375px;   
-    }
-}
-
 @media screen and (max-width: 412px){
     .container-proyects{
         width: 412px;   
     }
     
     .container-proyects-title{
-        width: 93%;
+        width: 90%;
         left: 5px;
     }
     
 }
+
+@media screen and (max-width: 375px){
+    .container-proyects{
+        width: 375px;   
+    }
+}
+

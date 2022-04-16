@@ -115,13 +115,6 @@ header img:hover {
   
 }
 
-@media screen and (max-width: 375px){
-  header {
-    width: 375px;
-  }
-  
-}
-
 @media screen and (max-width: 412px){
   header {
     width: 412px;
@@ -133,3 +126,11 @@ header img:hover {
     margin-left: 5px;
   }
 }
+
+@media screen and (max-width: 375px){
+  header {
+    width: 375px;
+  }
+  
+}
+

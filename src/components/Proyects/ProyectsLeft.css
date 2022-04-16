@@ -139,17 +139,19 @@
     }
   }
 
+  @media screen and (max-width: 412px) {
+    .container-proyects-personal{
+        width: 90%;
+        margin-left: 5px;
+        
+    }
+     
+  }
+
   @media screen and (max-width: 375px) {
     .container-proyects-personal {
         margin-left: 7px;
     }
   }
 
-  @media screen and (max-width: 412px) {
-    .container-proyects-personal{
-        width: 93%;
-        margin-left: 5px;
-        
-    }
-     
-  }
+  
