@@ -107,14 +107,12 @@
 
 @media screen and (min-width: 823px) and (max-width: 914px) {
   .container-carrusel-logo {
-    width: 360px;    
+    width: 325px;    
   }
 }
 
 
 @media screen and (max-width: 768px){
-
-  
 
   .container-logo {
     width: 100%;
