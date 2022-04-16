@@ -38,6 +38,19 @@
     }
 }
 
+
+@media screen and (max-width: 823px) {
+    .container-proyects{
+        width: 823px;   
+    }
+    
+    .container-proyects-title{
+        width: 96.5%;
+        left: 10px;
+    }
+}
+
+
 @media screen and (max-width: 768px){
     .container-proyects{
         width: 768px;

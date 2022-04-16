@@ -59,6 +59,23 @@
     }
 }
 
+@media screen and (max-width: 823px) {
+    .container-proyects-personal2{
+        height: 700px;
+       display: flex;
+       flex-direction: column-reverse;
+        width: 96.5%;
+        margin-left: 10px;  
+        
+    }
+    
+    .container-proyects-description2{
+        align-items: center;
+        
+    }
+    
+}
+
 @media screen and (max-width: 768px) {
     .container-proyects-personal2{
         height: 660px;

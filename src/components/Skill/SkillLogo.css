@@ -104,6 +104,14 @@
   
 }
 
+
+@media screen and (max-width: 823px) {
+  .container-carrusel-logo {
+    width: 320px;    
+  }
+}
+
+
 @media screen and (max-width: 768px){
 
   

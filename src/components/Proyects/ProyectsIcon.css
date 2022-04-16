@@ -14,6 +14,14 @@
     }
 }
 
+@media screen and (max-width: 823px) {
+    .icon-proyects{
+        width: 35px;
+        height: 35px;
+        margin-right: 0px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .icon-proyects{
         width: 35px;

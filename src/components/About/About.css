@@ -171,6 +171,42 @@
   }
 }
 
+@media screen and (max-width: 823px){
+  .container-aboutme {
+    width: 823px;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container-aboutme-title {
+    left: 10px;
+    width: 96.5%;
+   
+  }
+  
+  .container-aboutme-description {
+    width: 100%;
+    height: 500px;
+  }
+  
+  .container-aboutme-index p {
+    margin-left: 40px;
+  }
+  
+  .container-html {
+    padding: 15px;
+  }
+  .container-aboutme-image img {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    top: 139px;
+    left: 200px;
+  }
+}
+
+
 @media (max-width: 768px){
   .container-aboutme {
     width: 768px;
@@ -294,9 +330,10 @@
 @media screen and (min-width: 320px) and (max-width: 384px){
   .container-aboutme {
     width: 370px;
+    height: 1200px;
 }
 .container-aboutme-title {
-  width: 95%;
+  width: 96%;
   left: 8px;
 }
 
@@ -306,6 +343,6 @@
 
 .container-aboutme-image img {
   left: 40px;
-  top: 30px;
+  top: 100px;
 }
 }
