@@ -245,7 +245,7 @@
   }
 }
 
-@media screen and (min-width: 823px) and (max-width: 914px) {
+@media screen and (max-width: 914px) {
   .container {
     width: 914px;
     height: 900px;
@@ -311,7 +311,7 @@
     height: 200px;
   }
 }
-/* 
+
 @media screen and (max-width: 768px){
   .container {
     width: 768px;
@@ -361,7 +361,7 @@
   }
   
   
-} */
+}
 
 @media screen and (max-width: 468px) {
   .container {
