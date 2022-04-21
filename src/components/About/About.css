@@ -108,9 +108,9 @@
   left: 71px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1328px) {
   .container-aboutme {
-    width: 1024px;
+    width: 100%;
     height: 750px;
   }
   
@@ -171,7 +171,7 @@
   }
 }
 
-@media screen and (min-width: 823px) and (max-width: 914px){
+@media screen and (min-width: 768px) and (max-width: 1023px){
   .container-aboutme {
     width: 100%;
     height: 1200px;
@@ -202,70 +202,18 @@
     height: 450px;
     position: relative;
     top: 139px;
-    left: 260px;
+    left: 245px;
   }
 }
 
 
-@media (max-width: 768px){
+
+
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
   .container-aboutme {
-    width: 768px;
-    height: 1050px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .container-aboutme-title {
-    position: relative;
-    left: 20px;
-    width: 95.5%;
-  }
-  
-  .container-aboutme-title h1 {
     width: 100%;
-    font-size: 3.5rem;
-  }
-  
-  .container-aboutme-description {
-    width: 100%;
-    height: 500px;
-  }
-  
-  
-  .container-aboutme-index h3 {
-    font-size: 1.8rem;
-  }
-  
-  .container-aboutme-index p {
-    font-size: 1.4rem;
-    margin-left: 45px;
-  }
-  
-  .container-aboutme-index img {
-    width: 17px;
-    height: 17px;
-  }
-  
-  .container-html {
-    padding: 30px;
-    font-size: 1.6rem;
-  }
-  
-
-  .container-aboutme-image img {
-    width: 350px;
-    height: 350px;
-    position: relative;
-    top: 100px;
-    left: 230px;
-  }
-}
-
-
-@media screen and (max-width: 468px) {
-  .container-aboutme {
-    width: 468px;
-    height: 1000px;
+    height: 1100px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -275,6 +223,7 @@
     position: relative;
     left: 10px;
     width: 96%;
+    margin-top: 40px;
   }
   
   .container-aboutme-title h1 {
@@ -305,44 +254,66 @@
   
   .container-aboutme-image img {
     width: 300px;
-    height: 300px;
-    position: relative;
-    top: 15px;
-    left: 95px;
-  }
+    height: auto;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    
+}
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 320px) and (max-width: 480px){
   .container-aboutme {
-    width: 425px;
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  
+  .container-aboutme-title {
+    position: relative;
+    left: 5px;
+    width: 96%;
+    margin-top: 40px;
   }
   
   .container-aboutme-title h1 {
-   margin-top: 100px;
-    
-}
+    width: 100%;
+    font-size: 3.5rem;
+  }
+  
+  .container-aboutme-description {
+    width: 100%;
+    height: auto;
+    margin-bottom: 35px;
+  }
+  
+  .container-aboutme-details {
+    width: 100%;
+    height: 95%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .container-aboutme-index {
+  display: none;
+  }
+  
+  .container-html {
+    padding: 15px;
+  }
   
   .container-aboutme-image img {
-    left: 80px;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 384px){
-  .container-aboutme {
-    width: 370px;
-    height: 1200px;
-}
-.container-aboutme-title {
-  width: 96%;
-  left: 8px;
-}
-
-.container-html {
-  padding: 6px;
-}
-
-.container-aboutme-image img {
-  left: 40px;
-  top: 100px;
+    width: 300px;
+    height: auto;
+    left: 20px;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    
 }
 }

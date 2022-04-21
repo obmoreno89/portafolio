@@ -14,13 +14,13 @@
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1328px) {
   .container-skill {
-  width: 1024px;
+  width: 100%;
 }
 
 .container-carrusel {
-  width: 1024px;
+  width: 100%;
   height: 400px;
   position: relative;
   top: 50px;
@@ -29,7 +29,7 @@
 }
 }
 
-@media screen and (min-width: 823px) and (max-width: 914px){
+@media screen and (min-width: 768px) and (max-width: 1023px){
   .container-skill {
     width: 100%;
     height: 660px;
@@ -46,53 +46,33 @@
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 481px) and (max-width: 767px) {
   .container-skill {
-    width: 768px;
-    height: 400px;
-   
+    width: 100%;
+    height: auto;
+   position: relative;
+   top: 40px;
   }
   
   
   .container-carrusel {
-    width: 768px;
-   height: 250px;
-   
-  }
-}
-
-@media screen and (max-width: 468px) {
-  .container-skill {
-    width: 468px;
-    height: 600px;
-  }
-  
-  
-  .container-carrusel {
-    width: 468px;
-    height: 400px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .container-skill {
-    width: 425px;
-  }
-  
-  
-  .container-carrusel {
-    width: 425px;
+    width: 100%;
+    height: auto;
   }
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 384px){
+@media screen and (min-width: 320px) and (max-width: 480px){
   .container-skill {
-    width: 370px;
+    width: 100%;
+    height: auto;
+   position: relative;
+   top: 40px;
   }
   
   
   .container-carrusel {
-    width: 370px;
+    width: 100%;
+    height: auto;
   }
 }

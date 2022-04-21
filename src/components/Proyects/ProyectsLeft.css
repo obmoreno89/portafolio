@@ -44,6 +44,7 @@
     display: flex;
     width: 150px;
    
+   
 }
 
 
@@ -86,9 +87,9 @@
   }
 
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (min-width: 1024px) and (max-width: 1328px) {
     .container-proyects-personal{
-        width: 96%;
+        width: 96.5%;
         margin-left: 20px;
         
     }
@@ -100,7 +101,7 @@
      
   }
 
-  @media screen and (min-width: 823px) and (max-width: 914px){
+  @media screen and (min-width: 768px) and (max-width: 1023px){
     .container-proyects-personal{
         height: 750px;
         display: flex;
@@ -126,48 +127,64 @@
   }
 
 
-  @media screen and (max-width: 768px) {
-    .container-proyects-personal{
-        height: 660px;
-        display: flex;
-       flex-direction: column;
-        width: 96%;
-        margin-left: 20px;
-        
-    }
-    
 
-    .container-proyects-description{
-        align-items: center;
-    }
-    
-    
-    .container-proyects-icon{
-        display: flex;
-        width: none;
-       justify-content: center;
-       gap: 16px;
-       
-    }
-    
-    
-    .container-proyects-description p{
-       text-align: center;
-    }
-    
-  }
 
-  @media screen and (max-width: 468px){
+  @media screen and (min-width: 481px) and (max-width: 767px){
     .container-proyects-personal {
         width: 96%;
+        height: auto;
         margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-proyects-description {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 40px;
+        align-items: center;
+    }
+
+    .container-proyects-icon { 
+        justify-content: center;
+        margin-left: 15px;
+    }
+
+    .container-proyects-description p {
+       text-align: center;
+      
     }
   }
 
-  @media screen and (min-width: 320px) and (max-width: 384px){
-    .container-proyects-personal{
+  @media screen and (min-width: 320px) and (max-width: 480px){
+    .container-proyects-personal {
         width: 96%;
-        margin-left: 8px;
-        
+        height: auto;
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-proyects-description {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 40px;
+        align-items: center;
+    }
+
+    .container-proyects-icon { 
+        justify-content: center;
+        margin-left: 15px;
+    }
+
+    .container-proyects-description p {
+       text-align: center;
+      
     }
   }

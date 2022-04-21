@@ -151,9 +151,9 @@
   }
 
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (min-width: 1024px) and (max-width: 1328px) {
     .container-contact{
-        width: 1024px;        
+        width: 100%;        
     }
     
     .container-contact-title{
@@ -178,7 +178,7 @@
   }
 
 
-  @media screen and (min-width: 823px) and (max-width: 914px) {
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
     .container-contact{
         width: 100%;
     }
@@ -196,67 +196,20 @@
     }
     
     .information-title h1{
-        width: 80%;
+        width: 480px;
     }
         
     .copyright-title{
-        width: 35%;
-        left: 32%;
+        width: 300px;
+        left: 340px;
     }
   }
 
 
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 481px) and (max-width: 767px) {
     .container-contact{
-        width: 768px; 
-    }
-    
-    .container-contact-title{
-        width: 96%;
-        left: 20px;
-    }
-    
-    .container-contact-title h1{
-        font-size: 3.5rem;
-    }
-    
-    .container-contact-information{
-        width: 96%;
-        left: 20px;        
-    }
-    
-    .information-title{
         width: 100%;
-    }
-    
-    .information-title h1{
-        width: 60%;
-        font-size: 2.5rem;
-    }
-        
-    .information-icon{
-       display: flex;
-       gap: 16px;
-    }
-      
-    .copyright-title h4{
-        font-size: 1rem;
-    }
-    
-    .container-up img{
-        width: 35px;
-        height: 35px;
-      }
-  }
-
-
-  @media screen and (max-width: 468px) {
-    .container-contact{
-        width: 468px;
         height: 550px;
-        background-image: url("../../asset/img/background.jpg");
-        background-size: cover;
-        position: relative;
         margin: 0 auto;
         
     }
@@ -278,10 +231,19 @@
     }
     
     .information-title h1{
-        width: 90%;
+        width: 400px;
         font-size: 2.5rem;
     }
-        
+     
+    
+    .copyright-title {
+        width: 170px;
+        left: 150px;
+        left: 20px;
+        right: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
     
     .copyright-title h4{
         font-size: 0.7rem;
@@ -294,53 +256,49 @@
     
   }
 
-  @media screen and (max-width: 425px) {
+  @media screen and (min-width: 320px) and (max-width: 480px){
     .container-contact{
-        width: 425px;        
-    }
-        
-    .container-contact-title h1{
-        font-size: 3.5rem;
-    }
-    
-    .information-title h1{
-        width: 90%;
-        font-size: 2.3rem;
-    }
-        
-    
-    .copyright-title h4{
-        font-size: 0.7rem;
-    }
-    
-    .container-up img{
-        width: 30px;
-        height:30px;
-      }
-    
-  }
-
-
-@media screen and (min-width: 320px) and (max-width: 384px){
-    .container-contact{
-        width: 370px;
+        width: 100%;
+        height: 550px;
+        margin: 0 auto;
         
     }
     
     .container-contact-title{
         width: 96%;
-        left: 8px;
+        left: 10px;
+    }
+    
+    .container-contact-title h1{
+        font-size: 3.5rem;
     }
     
     .container-contact-information{
         width: 96%;
-        left: 8px;
+        left: 10px;
+        top: 80px;
+        
     }
     
     .information-title h1{
+        width: 300px;
         font-size: 2rem;
     }
-        
+
+    .information-title p {
+       
+        font-size: 1.8rem;
+    }
+     
+    
+    .copyright-title {
+        width: 170px;
+        left: 150px;
+        left: 20px;
+        right: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
     
     .copyright-title h4{
         font-size: 0.7rem;
@@ -350,4 +308,7 @@
         width: 35px;
         height:35px;
       }
+    
   }
+
+

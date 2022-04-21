@@ -172,29 +172,29 @@
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1328px) {
   .container {
-    width: 1024px;
+    width: 100%;
     height: 550px;
     margin-top: 75px;
   }
   
   .container-title {
-    width: 500px;
-    height: 225px;
+    width: 520px;
+    height: 250px;
     margin-left: 20px;
   }
   
   .container-title .container-hello {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
   
   .container-title .container-name {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
   
   .container-title .container-profession {
-    font-size: 4.5rem;
+    font-size: 4.8rem;
   }
   
   .container-title p {
@@ -245,7 +245,7 @@
   }
 }
 
-@media screen and (min-width: 823px) and (max-width: 914px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .container {
     width: 100%;
     height: 900px;
@@ -279,14 +279,17 @@
   }
   
   .container-title p {
-    left: 302px;
-    margin-top: 10px;
-    position: relative;
-  }
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
   
   .container-window {
     width: 96.5%;
     margin-left: 10px;
+    margin-top: 10px;
   }
   
   .container-circle {
@@ -312,69 +315,27 @@
   }
 }
 
-@media screen and (max-width: 768px){
+
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
   .container {
-    width: 768px;
-    height: 900px;
-    display: flex;
-   flex-direction: column;
-  }
-  
-  .container-title {
-    position: relative;
-    width: 730px;
-    height: 320px;
-    margin-left: 20px;
-    margin-top: 30px;
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
   }
   
-  .container-title .container-hello {
-    font-size: 4rem;
-  }
-  
-  .container-title .container-name {
-    font-size: 4rem;
-  }
-  
-  .container-title .container-profession {
-    font-size: 5rem;
-  }
-
-  .container-title p {
-    left: 0px;
+  #nav {
+    margin-top: 0px;
 }
 
-  
-  .container-window {
-    width: 95.5%;
-    margin-left: 20px;
-    margin-top: 45px;
-    height: 400px;
-    background-color: var(--black);
-    display: grid;
-    grid-template-rows: 1fr 14fr;
-    border-radius: 20px 20px 0px 0px;
-    border: 1px solid var(--gray);
-  }
-  
-  
-}
-
-@media screen and (max-width: 468px) {
-  .container {
-    width: 468px;
-    height: 900px;
-    display: flex;
-  }
-  
   .container-title {
-    width: 450px;
-    height: 225px;
-    margin-left: 10px;
-    margin-top: 40px;
+    width: 96%;
+    height: 250px;
+    margin-left: 14px;
+    text-align: center;
+   
   }
   
   .container-title .container-hello {
@@ -391,6 +352,10 @@
   
   .container-title p {
     width: 120px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
   
   .container-title a {
@@ -399,8 +364,12 @@
   
   .container-window {
     width: 96%;
-   position: relative;
-   right: 10px;
+    height: auto;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
   }
   
   .container-circle {
@@ -419,7 +388,7 @@
   }
   
   .container-data {
-    width: 402px;
+    width: 96%;
     height: 270px;
   }
   
@@ -436,94 +405,92 @@
 }
 
 
-@media screen and (max-width: 425px) {
-  .container {
-    width: 425px;
-  }
 
-  #nav{
-    margin-top: 1px;
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+  .container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
+  
+  #nav {
+    margin-top: 0px;
+}
 
   .container-title {
-    width: 405px;
-    height: 200px;
+    width: 100%;
+    height: 250px;
+    margin-left: 0px;
+    text-align: center;
    
   }
-
-  .container-window {
-    height: 600px;
-}
   
   .container-title .container-hello {
-    font-size: 3.0rem;
+    font-size: 3rem;
   }
   
   .container-title .container-name {
-    font-size: 3.0rem;
+    font-size: 3rem;
   }
   
   .container-title .container-profession {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   
   .container-title p {
-    width: 110px;
-    height: 30px;
+    width: 120px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
   
   .container-title a {
-    font-size: 1.3rem;
-  }
-}
-
-
-@media screen and (min-width: 320px) and (max-width: 384px){
-  .container {
-    width: 369px;
+    font-size: 1.5rem;
   }
   
-  .container-title {
-    width: 358px;
-    margin-left: 5px;
-   
-  }
-  .container-title .container-profession {
-    font-size: 3.3rem;
-  }
-  
-  .container-title p {
-    width: 110px;
-    height: 30px;
-  }
-  
-  .container-title a {
-    font-size: 1.3rem;
-  }
-
-  .container-web {
-    width: 88%;
-}
-
   .container-window {
-    margin-left: 18px;
+    width: 96%;
+    height: auto;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+  }
+  
+  .container-circle {
+    width: 85%;
+  }
+  
+  .container-web .url-name {
+    width: 200px;
+  }
+  
+  .container-personal {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .container-data {
+    width: 96%;
+    height: 270px;
+  }
+  
+  .container-personal .container-about {
+    padding-left: 10px;
+  }
+  
+  .container-personal .container-about .aqua {
+    color: var(--aqua);
+    margin-left: 15px;
+    margin-bottom: 5px;
+  }
+  
 }
 
-.container-circle {
-  width: 85%;
-}
-
-.container-web .url-name {
-  width: 170px;
-}
-.container-personal {
-  width: 360px;
-}
-.container-data {
-  width: 346px;
-}
-
-.container-personal {
-  width: 353px;
-}
-}
