@@ -23,6 +23,22 @@
   
 }
 
+@media screen and (min-width: 1329px) and (max-width: 1439px) {
+    .container-proyects{
+        width: 100%;
+    }
+    
+    .container-proyects-title{
+        width: 96%;
+        left: 20px;
+    }
+    
+    .container-proyects-title h1{
+        font-size: 3.5rem;
+      
+    }
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1328px) {
     .container-proyects{
         width: 100%;

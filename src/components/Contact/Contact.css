@@ -150,6 +150,33 @@
     height: 50px;
   }
 
+  @media screen and (min-width: 1329px) and (max-width: 1439px) {
+    .container-contact{
+        width: 100%;        
+    }
+    
+    .container-contact-title{
+        width: 96%;
+        left: 20px;
+    }
+    
+    .container-contact-title h1{
+        font-size: 3.5rem;
+    }
+    
+    .container-contact-information{
+        width: 96%;
+        left: 20px;
+    }
+    
+    
+    .information-title h1{
+        width: 50%;
+    }
+
+  }
+
+
 
   @media screen and (min-width: 1024px) and (max-width: 1328px) {
     .container-contact{

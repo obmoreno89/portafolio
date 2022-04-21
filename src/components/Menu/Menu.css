@@ -51,6 +51,23 @@ header img:hover {
  border-radius: 20px; 
  
 }
+@media screen and (min-width: 1328px) and (max-width: 1439px){
+  header {
+    width: 100%;
+  }
+  
+  .container-menu .link {
+    margin-left: 20px;
+  }
+  
+  .container-menu .link:hover:after {
+    width: 100%;
+    right: 0;
+  }
+  header figure {
+    margin-right: 20px;
+  }
+}
 
 @media screen and (min-width: 1024px) and (max-width: 1328px) {
   header {

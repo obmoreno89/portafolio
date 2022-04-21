@@ -171,6 +171,78 @@
   height: 200px;
 }
 
+@media screen and (min-width: 1329px) and (max-width: 1439px) {
+  .container {
+    width: 100%;
+    height: 550px;
+    margin-top: 75px;
+  }
+  
+  .container-title {
+    width: 620px;
+    height: 250px;
+    margin-left: 20px;
+  }
+  
+  .container-title .container-hello {
+    font-size: 4.5rem;
+  }
+  
+  .container-title .container-name {
+    font-size: 4.5rem;
+  }
+  
+  .container-title .container-profession {
+    font-size: 5.5rem;
+  }
+  
+  .container-title p {
+    margin-top: 5px;
+  }
+  
+  
+  .container-window {
+    width: 96%;
+    height: 391px;
+  }
+  
+  
+  
+  .container-web .url-name {
+    width: 250px;
+    font-size: 1.3rem;
+  }
+  
+  .container-personal {
+    height: 369px;
+  }
+  
+  .container-data {
+    width: 300px;
+    height: 270px;
+  }
+  
+  .container-personal .container-about {
+    padding-left: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .container-personal .container-about .aqua {
+    margin-left: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .container-image {
+    width: 100%;
+    height: 300px;
+    
+  }
+  .container-image img {
+    width: 170px;
+    height: 170px;
+  }
+}
 
 @media screen and (min-width: 1024px) and (max-width: 1328px) {
   .container {
