@@ -121,6 +121,7 @@ function App() {
           <ProyectsIcon logo='html' />
           <ProyectsIcon logo='js' />
         </ProyectsLeft>
+
         <ProyectsRight
           title='Rick & Morty'
           description='Un proyecto en el cual extraemos la información por medio de una API'
@@ -131,6 +132,33 @@ function App() {
           urlDemo='https://obmoreno89.github.io/rick-morty/'>
           <ProyectsIcon logo='react' />
           <ProyectsIcon logo='css' />
+        </ProyectsRight>
+
+        <ProyectsLeft
+          titleSection='Status Weather'
+          proyects='proyect-5'
+          description='Proyecto en el cual realizamos una peticiones a una API, solicitando el estado del clima de un pais'
+          code='Ver Codigo'
+          demo='Demo'
+          urlCode='https://github.com/obmoreno89/weather'
+          urlDemo='https://obmoreno89.github.io/weather/'>
+          <ProyectsIcon logo='css' />
+          <ProyectsIcon logo='html' />
+          <ProyectsIcon logo='js' />
+          <ProyectsIcon logo='bootstrap' />
+        </ProyectsLeft>
+
+        <ProyectsRight
+          title='Geometric Figures'
+          description='Proyecto para calcular el area y el perimetro de un cuadrado y un triangulo, así como el radio de un circulo'
+          code='Ver Codigo'
+          demo='Demo'
+          proyects='proyect-6'
+          urlCode='https://github.com/obmoreno89/rick-morty'
+          urlDemo='https://obmoreno89.github.io/rick-morty/'>
+          <ProyectsIcon logo='html' />
+          <ProyectsIcon logo='css' />
+          <ProyectsIcon logo='js' />
         </ProyectsRight>
       </ProyectsHeader>
 
