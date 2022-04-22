@@ -154,8 +154,8 @@ function App() {
           code='Ver Codigo'
           demo='Demo'
           proyects='proyect-6'
-          urlCode='https://github.com/obmoreno89/rick-morty'
-          urlDemo='https://obmoreno89.github.io/rick-morty/'>
+          urlCode='https://github.com/obmoreno89/geometric-figure'
+          urlDemo='https://obmoreno89.github.io/geometric-figure/'>
           <ProyectsIcon logo='html' />
           <ProyectsIcon logo='css' />
           <ProyectsIcon logo='js' />
