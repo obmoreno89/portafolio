@@ -63,8 +63,9 @@
 
 .container-logo img {
   position: relative;
-  width: 220px;
-  height: 220px;
+  top: 10px;
+  width: 140px;
+  height: 140px;
   transition: all 1.2s ease;
 }
 

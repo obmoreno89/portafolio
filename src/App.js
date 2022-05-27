@@ -75,11 +75,11 @@ function App() {
           <SkillLogo title='HTML' level='Intermedio' language='html' />
           <SkillLogo title='CSS' level='Intermedio' language='css' />
           <SkillLogo title='JavaScript' level='Intermedio' language='js' />
-          <SkillLogo title='React' level='Basico' language='react' />
-          <SkillLogo title='Bootstrap' level='Basico' language='bootstrap' />
-          <SkillLogo title='Python' level='Intermedio' language='python' />
+          <SkillLogo title='React' level='Intermedio' language='react' />
+          <SkillLogo title='Tailwind' level='Intermedio' language='tailwind' />
+          <SkillLogo title='Python' level='Basico' language='python' />
           <SkillLogo title='MySQL' level='Basico' language='mysql' />
-          <SkillLogo title='Git' level='Basico' language='git' />
+          <SkillLogo title='Git' level='Intermedio' language='git' />
         </Carousel>
       </Skill>
 
@@ -145,7 +145,7 @@ function App() {
           <ProyectsIcon logo='css' />
           <ProyectsIcon logo='html' />
           <ProyectsIcon logo='js' />
-          <ProyectsIcon logo='bootstrap' />
+          <ProyectsIcon logo='tailwind' />
         </ProyectsLeft>
 
         <ProyectsRight
