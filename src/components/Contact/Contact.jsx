@@ -26,7 +26,7 @@ function Contact(props) {
               target='blank'
               rel='noopener noreferrer'>
               <img
-                src={require(`../../asset/icon/${props.linkedin}.png`)}
+                src={require(`../../asset/icon/${props.linkedin}.svg`)}
                 alt='Linkedin'
               />
             </Link>
@@ -36,7 +36,7 @@ function Contact(props) {
               target='blank'
               rel='noopener noreferrer'>
               <img
-                src={require(`../../asset/icon/${props.github}.png`)}
+                src={require(`../../asset/icon/${props.github}.svg`)}
                 alt='Github'
               />
             </Link>
@@ -46,7 +46,7 @@ function Contact(props) {
               target='blank'
               rel='noopener noreferrer'>
               <img
-                src={require(`../../asset/icon/${props.twitter}.png`)}
+                src={require(`../../asset/icon/${props.twitter}.svg`)}
                 alt='Twitter'
               />
             </Link>

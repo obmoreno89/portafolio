@@ -50,7 +50,7 @@ function Menu(props) {
           target='blank'
           rel='noopener noreferrer'>
           <img
-            src={require(`../../asset/icon/${props.linkedin}.png`)}
+            src={require(`../../asset/icon/${props.linkedin}.svg`)}
             alt='linkedin'
           />
         </Link>
@@ -59,7 +59,7 @@ function Menu(props) {
           target='blank'
           rel='noopener noreferrer'>
           <img
-            src={require(`../../asset/icon/${props.github}.png`)}
+            src={require(`../../asset/icon/${props.github}.svg`)}
             alt='github'
           />
         </Link>
@@ -68,7 +68,7 @@ function Menu(props) {
           target='blank'
           rel='noopener noreferrer'>
           <img
-            src={require(`../../asset/icon/${props.twitter}.png`)}
+            src={require(`../../asset/icon/${props.twitter}.svg`)}
             alt='twitter'
           />
         </Link>
