@@ -4,17 +4,28 @@
   width: 1440px;
   height: 660px;
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
+  grid-template-columns: 1.3fr 1fr;
   margin: 0 auto;
   margin-bottom: 90px;
+}
 
+.container-title-about {
+  width: 1440px;
+  margin: 0 auto;
+  position: relative;
+  padding-left: 48px;
+}
+
+.container-title-about h1 {
+  font-size: 4rem;
+  color: var(--white);
+  margin-bottom: 20px;
 }
 
 .container-aboutme-title {
   position: relative;
-  left: 48px;
-  width: 90%;
- 
+  padding-left: 48px;
+  width: 100%;
 }
 
 .container-aboutme-title h1 {
@@ -100,12 +111,23 @@
   margin-left: 20px;
 }
 
-.container-aboutme-image img {
-  width: 450px;
-  height: 450px;
-  position: relative;
-  top: 139px;
-  left: 71px;
+.container-aboutme-image {
+  display: flex;
+  padding: 34px;
+  padding-left: 0px;
+}
+
+.container-window-experiencie {
+  width: 250px;
+  height: 235px;
+  border-radius: 20px 20px 0px 0px;
+  background: linear-gradient(180deg, #171a1b 0%, rgba(23, 26, 27, 0) 100%);
+  opacity: 0.8;
+}
+
+.container-logo .logo-company {
+  width: 110px;
+  height: 110px;
 }
 
 @media screen and (min-width: 1329px) and (max-width: 1439px) {
@@ -113,45 +135,56 @@
     width: 100%;
     height: 750px;
   }
-  
-  .container-aboutme-title {
-    left: 20px;
-    width: 82%;
+  .container-title-about {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 20px;
   }
-  
+
+  .container-aboutme-title {
+    padding-left: 20px;
+    width: 89%;
+  }
+
+  .container-window-experiencie {
+    width: 250px;
+    height: 235px;
+    border-radius: 20px 20px 0px 0px;
+    background: linear-gradient(180deg, #171a1b 0%, rgba(23, 26, 27, 0) 100%);
+    opacity: 0.8;
+  }
+
   .container-aboutme-title h1 {
     width: 100%;
     height: 60px;
     font-size: 3.5rem;
   }
-  
+
   .container-aboutme-description {
     width: 100%;
     height: 500px;
   }
-  
-  
+
   .container-aboutme-index .container-arrow {
     width: 15px;
     height: 15px;
   }
-  
+
   .container-aboutme-index h3 {
-    
     font-size: 1.6rem;
   }
-  
+
   .container-aboutme-index p {
-   
     font-size: 1.5rem;
     margin-left: 20px;
   }
-  
+
   .container-aboutme-index img {
     width: 17px;
     height: 17px;
   }
-  
+
   .container-html {
     padding: 20px;
     font-size: 1.5rem;
@@ -161,61 +194,62 @@
     color: var(--aqua);
     font-size: 1.5rem;
   }
-  
-  .container-aboutme-image img {
-    width: 400px;
-    height: 400px;
-    position: relative;
-    top: 139px;
-    left: 5px;
-  }
 }
-
 
 @media screen and (min-width: 1024px) and (max-width: 1328px) {
   .container-aboutme {
     width: 100%;
     height: 750px;
   }
-  
+
   .container-aboutme-title {
-    left: 20px;
-    width: 82%;
+    padding-left: 20px;
+    width: 94%;
   }
-  
+
+  .container-title-about {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 20px;
+  }
+
+  .container-title-about h1 {
+    font-size: 3.5rem;
+    color: var(--white);
+    margin-bottom: 20px;
+  }
+
   .container-aboutme-title h1 {
     width: 100%;
     height: 60px;
     font-size: 3.5rem;
   }
-  
+
   .container-aboutme-description {
     width: 100%;
     height: 500px;
   }
-  
-  
+
   .container-aboutme-index .container-arrow {
     width: 15px;
     height: 15px;
   }
-  
+
   .container-aboutme-index h3 {
-    
     font-size: 1.6rem;
   }
-  
+
   .container-aboutme-index p {
-   
     font-size: 1.5rem;
     margin-left: 20px;
   }
-  
+
   .container-aboutme-index img {
     width: 17px;
     height: 17px;
   }
-  
+
   .container-html {
     padding: 20px;
     font-size: 1.5rem;
@@ -225,159 +259,234 @@
     color: var(--aqua);
     font-size: 1.5rem;
   }
-  
-  .container-aboutme-image img {
-    width: 400px;
-    height: 400px;
-    position: relative;
-    top: 139px;
-    left: 5px;
-  }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px){
+.container-window-experiencie {
+  width: 205px;
+  height: 215px;
+}
+
+.container-window-experiencie h3 {
+  font-size: 1.6rem;
+}
+
+.container-window-experiencie h5 {
+  font-size: 1.5rem;
+}
+
+.container-logo .logo-company {
+  width: 90px;
+  height: 90px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .container-aboutme {
     width: 100%;
     height: 1200px;
     display: flex;
     flex-direction: column;
   }
-  
-  .container-aboutme-title {
-    left: 10px;
-    width: 96.5%;
-   
+
+  .container-title-about {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 10px;
   }
-  
+
+  .container-aboutme-title {
+    padding-left: 10px;
+    width: 98%;
+  }
+
+  .container-window-experiencie {
+    width: 220px;
+    height: 215px;
+  }
+
   .container-aboutme-description {
     width: 100%;
     height: 500px;
   }
-  
+
   .container-aboutme-index p {
     margin-left: 40px;
   }
-  
+
   .container-html {
     padding: 15px;
   }
-  .container-aboutme-image img {
-    width: 450px;
-    height: 450px;
+  .container-aboutme-image {
     position: relative;
-    top: 139px;
-    left: 245px;
+    top: 60px;
+    padding-left: 10px;
   }
 }
-
-
-
-
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
   .container-aboutme {
     width: 100%;
-    height: 1100px;
+    height: 900px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
   }
-  
+
+  .container-title-about {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 10px;
+    top: 50px;
+  }
+
+  .container-title-about h1 {
+    font-size: 3.5rem;
+    color: var(--white);
+    margin-bottom: 20px;
+  }
+
   .container-aboutme-title {
     position: relative;
-    left: 10px;
-    width: 96%;
+    padding-left: 10px;
+    width: 98%;
     margin-top: 40px;
   }
-  
+
   .container-aboutme-title h1 {
     width: 100%;
     font-size: 3.5rem;
   }
-  
+
   .container-aboutme-description {
     width: 100%;
     height: 500px;
     margin-bottom: 35px;
   }
-  
+
   .container-aboutme-details {
     width: 100%;
     height: 95%;
     display: grid;
     grid-template-columns: 1fr;
   }
-  
+
   .container-aboutme-index {
-  display: none;
+    display: none;
   }
-  
+
   .container-html {
     padding: 15px;
   }
-  
-  .container-aboutme-image img {
-    width: 300px;
-    height: auto;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-    position: absolute;
-    
-}
+
+  .container-aboutme-image {
+    padding: 0px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .container-window-experiencie {
+    width: 250px;
+    height: 250px;
+  }
+
+  .container-window-experiencie h3 {
+    font-size: 1.5rem;
+  }
+
+  .container-window-experiencie h5 {
+    font-size: 1.2rem;
+  }
+
+  .container-logo .logo-company {
+    width: 125px;
+    height: 125px;
+  }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px){
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .container-aboutme {
     width: 100%;
-    height: 1100px;
+    height: 900px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
   }
-  
+
+  .container-title-about {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 5px;
+    top: 50px;
+  }
+
+  .container-title-about h1 {
+    font-size: 3.5rem;
+    color: var(--white);
+    margin-bottom: 20px;
+  }
+
   .container-aboutme-title {
     position: relative;
-    left: 5px;
-    width: 96%;
+    padding-left: 5px;
+    width: 98%;
     margin-top: 40px;
   }
-  
+
   .container-aboutme-title h1 {
     width: 100%;
     font-size: 3.5rem;
   }
-  
+
   .container-aboutme-description {
     width: 100%;
     height: auto;
     margin-bottom: 35px;
   }
-  
+
   .container-aboutme-details {
     width: 100%;
     height: 95%;
     display: grid;
     grid-template-columns: 1fr;
   }
-  
+
   .container-aboutme-index {
-  display: none;
+    display: none;
   }
-  
+
   .container-html {
     padding: 15px;
   }
-  
-  .container-aboutme-image img {
-    width: 300px;
-    height: auto;
-    left: 20px;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-    position: absolute;
-    
-}
+
+  .container-aboutme-image {
+    padding: 0px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .container-window-experiencie {
+    width: 250px;
+    height: 250px;
+  }
+
+  .container-window-experiencie h3 {
+    font-size: 1.5rem;
+  }
+
+  .container-window-experiencie h5 {
+    font-size: 1.2rem;
+  }
+
+  .container-logo .logo-company {
+    width: 125px;
+    height: 125px;
+  }
 }

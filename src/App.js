@@ -24,7 +24,7 @@ function App() {
   return (
     <div className='App'>
       <Menu
-        about='Sobre mi'
+        about='Experiencia'
         proyects='Proyectos'
         skill='Herramientas'
         contact='Contacto'
@@ -40,7 +40,7 @@ function App() {
         cv='Descargar CV'
         url='obmoreno89.com'
         personal='.DatosPersonales'
-        mail='Mail:'
+        mail='Email:'
         adress='obmoreno89@gmail.com'
         city=' Localidad:'
         country='Orizaba, Veracruz'
@@ -53,19 +53,19 @@ function App() {
       />
 
       <About
-        aboutme='Sobre mi...'
+        aboutme='Experiencia'
         url='obmoreno89.com'
-        folder='Portafolio'
+        folder='Sobre mi...'
         iconHtml='html'
         index='index.html'
         iconCss='css'
         style='style.css'
         openArticle='<article>'
         openP1='<p>'
-        information1='Soy un desarrollador web mexicano, recién egresado en la carrera de ingeniería en desarrollo de software, actualmente me encuentro fortaleciendo mis habilidades, como programador y buscando mi primer trabajo laboral en esta área'
+        information1='Soy un desarrollador web mexicano con 5 meses de experiencia en creación de sitios web, constantemente me encuentro fortaleciendo mis habilidades como programador y trabajando con equipos apasionados con la tecnología.'
         closedP1='</p>'
         openP2='<p>'
-        information2='Me gusta aprovechar todos los recursos online, así mismo estudio de forma autodidacta, con el objetivo de ser un desarrollador capaz de encontrar soluciones, sostificadas a problemas complejos y/o robustos'
+        information2='Me gusta aprovechar todos los recursos online, con el objetivo de ser un desarrollador capaz de encontrar soluciones, sostificadas a problemas complejos y/o robustos'
         closedP2='</p>'
         closedArticle='</article>'
       />
