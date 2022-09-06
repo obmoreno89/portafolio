@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portafolio/static/css/main.06b82008.css",
+    "main.js": "/portafolio/static/js/main.6549d71b.js",
+    "static/media/obm.png": "/portafolio/static/media/obm.66a58e40fdf714e92733.png",
+    "static/media/proyect-2.png": "/portafolio/static/media/proyect-2.d7fa6b22e58199380965.png",
+    "static/media/background.jpg": "/portafolio/static/media/background.6af7d681c4880a6d5443.jpg",
+    "static/media/proyect-6.png": "/portafolio/static/media/proyect-6.efb42e662cef7adeb5b9.png",
+    "static/media/proyect-5.png": "/portafolio/static/media/proyect-5.8f4ecc19b8f75b92180c.png",
+    "static/media/proyect-3.png": "/portafolio/static/media/proyect-3.9dac5bef71422cada0f1.png",
+    "static/media/tailwind.png": "/portafolio/static/media/tailwind.f0f26047a8933b822dae.png",
+    "static/media/me.png": "/portafolio/static/media/me.3ddf86cdea2a6056e362.png",
+    "static/media/proyect-4.png": "/portafolio/static/media/proyect-4.03e00ee17a6725f17c64.png",
+    "static/media/CV-OBM.pdf": "/portafolio/static/media/CV-OBM.7142cdd2913cd42b9f96.pdf",
+    "static/media/git.png": "/portafolio/static/media/git.f3eeaf9f51c397a78181.png",
+    "static/media/python.png": "/portafolio/static/media/python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/react.png": "/portafolio/static/media/react.86c8d9eba03e29814d2a.png",
+    "static/media/proyect-1.png": "/portafolio/static/media/proyect-1.70f1e371a1c80e2f39d1.png",
+    "static/media/mysql.png": "/portafolio/static/media/mysql.7d8d571e5629923eaf74.png",
+    "static/media/html.png": "/portafolio/static/media/html.6e930594286d8afe4c79.png",
+    "static/media/css.png": "/portafolio/static/media/css.463e319bad8e0edf1ef7.png",
+    "static/media/bootstrap.png": "/portafolio/static/media/bootstrap.268c4375260420e8d982.png",
+    "static/media/js.png": "/portafolio/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/github.svg": "/portafolio/static/media/github.b8bc8fe325bfa54bea07.svg",
+    "static/media/twitter.svg": "/portafolio/static/media/twitter.47b6d399e84f022e44ae.svg",
+    "static/media/linkedin.svg": "/portafolio/static/media/linkedin.dac90ea12522093efdd5.svg",
+    "static/media/hubmine.svg": "/portafolio/static/media/hubmine.cc18330bb61133d1db2b290472d66585.svg",
+    "index.html": "/portafolio/index.html",
+    "main.06b82008.css.map": "/portafolio/static/css/main.06b82008.css.map",
+    "main.6549d71b.js.map": "/portafolio/static/js/main.6549d71b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06b82008.css",
+    "static/js/main.6549d71b.js"
+  ]
+}
