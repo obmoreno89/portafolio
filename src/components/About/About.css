@@ -14,6 +14,9 @@
   margin: 0 auto;
   position: relative;
   padding-left: 48px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ 
 }
 
 .container-title-about h1 {
@@ -112,23 +115,66 @@
 }
 
 .container-aboutme-image {
-  display: flex;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
   padding: 34px;
   padding-left: 0px;
+  height: 400px;
+ 
 }
 
-.container-window-experiencie {
-  width: 250px;
-  height: 235px;
-  border-radius: 20px 20px 0px 0px;
-  background: linear-gradient(180deg, #171a1b 0%, rgba(23, 26, 27, 0) 100%);
-  opacity: 0.8;
+.container-aboutme-image .about-me-skills{
+  width: 100%;
+  gap: 60px;
+  display: flex;
 }
 
-.container-logo .logo-company {
-  width: 110px;
-  height: 110px;
+
+.container-aboutme-image .about-me-skills .container-skill-logo span{
+  text-align: center;
+  color: white;
+  font-size: 1.6rem;
+  margin-bottom:10px;
 }
+
+.container-aboutme-image .about-me-skills .container-skill-logo{
+  display: flex;
+  flex-direction: column;
+}
+.about-me-skill-second{
+  width: 100%;
+  display: flex;
+  gap: 60px;
+}
+
+.about-me-skill-second .container-skill-logo{
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-skill-second .container-skill-logo span{
+  text-align: center;
+  color: white;
+  font-size: 1.6rem;
+  margin-bottom:10px;
+}
+
+.container-aboutme-image .about-me-skills img{
+  width: 65px;
+  height: 65px;
+  
+}
+
+.container-aboutme-image .about-me-skill-second img{
+  width: 65px;
+  height: 65px;
+  
+}
+
+#hidden{
+  visibility: hidden;
+ }
+
 
 @media screen and (min-width: 1329px) and (max-width: 1439px) {
   .container-aboutme {
@@ -194,6 +240,10 @@
     color: var(--aqua);
     font-size: 1.5rem;
   }
+
+  #hidden{
+    visibility: hidden;
+   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1328px) {
@@ -259,25 +309,50 @@
     color: var(--aqua);
     font-size: 1.5rem;
   }
+  .container-window-experiencie {
+    width: 205px;
+    height: 215px;
+  }
+  
+  .container-window-experiencie h3 {
+    font-size: 1.6rem;
+  }
+  
+  .container-window-experiencie h5 {
+    font-size: 1.5rem;
+  }
+
+  .container-aboutme-image{
+    width: 100%;
+   
+  }
+  
+  .container-aboutme-image .about-me-skills {
+    gap: 0px;
+    display: flex;
+    justify-content: space-around;
+   
+  }
+
+  .container-aboutme-image .about-me-skill-second {
+   
+    gap: 0px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .title-skill{
+    margin-left: 50px;
+  }
+
+#hidden{
+ visibility: hidden;
+}
 }
 
-.container-window-experiencie {
-  width: 205px;
-  height: 215px;
-}
 
-.container-window-experiencie h3 {
-  font-size: 1.6rem;
-}
 
-.container-window-experiencie h5 {
-  font-size: 1.5rem;
-}
 
-.container-logo .logo-company {
-  width: 90px;
-  height: 90px;
-}
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .container-aboutme {
@@ -299,6 +374,11 @@
     width: 98%;
   }
 
+  .container-title-about .title-skill{
+    display: none;
+  }
+
+
   .container-window-experiencie {
     width: 220px;
     height: 215px;
@@ -318,9 +398,45 @@
   }
   .container-aboutme-image {
     position: relative;
-    top: 60px;
-    padding-left: 10px;
+    align-items: center;
+    padding: 0px;
+    margin-top: 70px;
   }
+  #hidden{
+    visibility: hidden;
+   }
+
+   .container-aboutme-image .about-me-skills {
+   gap: 0px;
+    display: flex;
+    justify-content: space-around;
+   }
+
+   .about-me-skill-second {
+    gap: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+   .container-aboutme-image .about-me-skills img {
+    width: 80px;
+    height: 80px;
+}
+
+.container-aboutme-image .about-me-skills .container-skill-logo span {
+ 
+  font-size: 2.0rem;
+  
+}
+
+.container-aboutme-image .about-me-skill-second img {
+  width: 80px;
+    height: 80px;
+}
+
+.about-me-skill-second .container-skill-logo span {
+  font-size: 2.0rem;
+}
 }
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
@@ -346,6 +462,10 @@
     margin-bottom: 20px;
   }
 
+  .container-title-about .title-skill{
+    display: none;
+  }
+  
   .container-aboutme-title {
     position: relative;
     padding-left: 10px;
@@ -357,6 +477,8 @@
     width: 100%;
     font-size: 3.5rem;
   }
+
+  
 
   .container-aboutme-description {
     width: 100%;
@@ -401,10 +523,26 @@
     font-size: 1.2rem;
   }
 
-  .container-logo .logo-company {
-    width: 125px;
-    height: 125px;
-  }
+  .container-aboutme-image {
+    flex-direction: column;
+}
+
+.container-aboutme-image .about-me-skills {
+  gap: 0px;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.about-me-skill-second {
+
+  justify-content: space-evenly;
+ gap: 0px;
+}
+
+#hidden{
+  visibility: hidden;
+ }
+ 
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
@@ -428,6 +566,10 @@
     font-size: 3.5rem;
     color: var(--white);
     margin-bottom: 20px;
+  }
+
+  .container-title-about .title-skill{
+    display: none;
   }
 
   .container-aboutme-title {
@@ -485,8 +627,45 @@
     font-size: 1.2rem;
   }
 
-  .container-logo .logo-company {
-    width: 125px;
-    height: 125px;
-  }
+  .container-aboutme-image .about-me-skills img {
+    width: 40px;
+    height: 40px;
+}
+
+.container-aboutme-image .about-me-skills .container-skill-logo span {
+ 
+  font-size: 1.1rem;
+  
+}
+
+.container-aboutme-image .about-me-skill-second img {
+  width: 40px;
+    height: 40px;
+}
+
+.about-me-skill-second .container-skill-logo span {
+  font-size: 1.1rem;
+}
+
+
+  .container-aboutme-image {
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+.container-aboutme-image .about-me-skills {
+  gap: 0px;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.about-me-skill-second {
+
+  justify-content: space-evenly;
+ gap: 0px;
+}
+
+#hidden{
+  visibility: hidden;
+ }
 }

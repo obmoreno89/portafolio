@@ -64,8 +64,8 @@
 .container-logo img {
   position: relative;
   top: 10px;
-  width: 140px;
-  height: 140px;
+  width: 170px;
+  height: 170px;
   transition: all 1.2s ease;
 }
 
@@ -107,7 +107,7 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1328px) {
   .container-carrusel-logo {
-    width: 270px;
+    width: 335px;
     
   }
   
@@ -131,7 +131,7 @@
 
   .container-carrusel-logo {
     width: 280px;
-    height: 200px;
+    height: 260px;
   }
 
   .container-logo h3 {
@@ -140,16 +140,16 @@
 
   .container-logo img {
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     transition: all 1.2s ease;
   }
 }
 
 @media screen and (min-width: 481px) and (max-width: 767px){
   .container-carrusel-logo {
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 230px;
   }
   
   
@@ -162,8 +162,8 @@
   }
   
   .container-logo img {
-    width: 125px;
-    height: 125px;
+    width: 135px;
+    height: 135px;
   }
   
 }

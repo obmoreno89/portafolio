@@ -3,6 +3,14 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './About.css';
 import hubmine from '../../asset/icon/hubmine.svg';
+import html from '../../asset/icon/html.png';
+import css from '../../asset/icon/css.png';
+import js from '../../asset/icon/js.png';
+import react from '../../asset/icon/react.png';
+import tailwind from '../../asset/icon/tailwind.png';
+import python from '../../asset/icon/python.png';
+import mysql from '../../asset/icon/mysql.png';
+import git from '../../asset/icon/git.png';
 
 function About(props) {
   useEffect(() => {
@@ -13,8 +21,13 @@ function About(props) {
     <>
       <div className='container-title-about'>
         <div data-aos='fade-up'>
-          <h1>{props.aboutme}</h1>
+          <article>
+            <h1>{props.aboutme}</h1>
+          </article>
         </div>
+        <article>
+          <h1 className='title-skill'>Herramientas</h1>
+        </article>
       </div>
       <div className='container-aboutme' id='about'>
         <div className='container-aboutme-title'>
@@ -74,23 +87,50 @@ function About(props) {
           </div>
         </div>
         <div data-aos='zoom-in' className='container-aboutme-image'>
-          <div className='container-window-experiencie'>
-            <div className='container-carrusel-circle'>
-              <div className='circle-red'></div>
-              <div className='circle-yellow'></div>
-              <div className='circle-green'></div>
+          <figure className='about-me-skills'>
+            <div className='container-skill-logo'>
+              <span>HTML</span>
+              <img src={html} alt='HTML' />
             </div>
-            <div className='container-logo'>
-              <h3>Hubmine</h3>
-              <h5>Actualmente</h5>
-              <img
-                className='logo-company'
-                src={hubmine}
-                alt='company 
-        logo'
-              />
+            <div className='container-skill-logo'>
+              <span>CSS</span>
+              <img src={css} alt='CSS' />
             </div>
-          </div>
+            <div className='container-skill-logo'>
+              <span>JS</span>
+              <img src={js} alt='JavaScript' />
+            </div>
+            <div className='container-skill-logo'>
+              <span>React.js</span>
+              <img src={react} alt='React.js' />
+            </div>
+            <div className='container-skill-logo'>
+              <span>tailwind</span>
+              <img src={tailwind} alt='Tailwind' />
+            </div>
+          </figure>
+          <figure className='about-me-skill-second'>
+            <div className='container-skill-logo'>
+              <span>Python</span>
+              <img src={python} alt='Python' />
+            </div>
+            <div className='container-skill-logo'>
+              <span>MysQl</span>
+              <img src={mysql} alt='Mysql' />
+            </div>
+            <div className='container-skill-logo'>
+              <span>Git</span>
+              <img src={git} alt='git' />
+            </div>
+            <div className='container-skill-logo ' id='hidden'>
+              <span>Git</span>
+              <img src={git} alt='git' />
+            </div>
+            <div className='container-skill-logo' id='hidden'>
+              <span>Git</span>
+              <img src={git} alt='git' />
+            </div>
+          </figure>
         </div>
       </div>
     </>

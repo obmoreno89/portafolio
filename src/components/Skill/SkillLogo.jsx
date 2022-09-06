@@ -13,7 +13,7 @@ function SkillLogo(props) {
         <h3>{props.title}</h3>
         <h5>{props.level}</h5>
         <img
-          src={require(`../../asset/icon/${props.language}.png`)}
+          src={require(`../../asset/icon/${props.language}.svg`)}
           alt='html 
         logo'
         />

@@ -24,9 +24,9 @@ function App() {
   return (
     <div className='App'>
       <Menu
-        about='Experiencia'
+        about='Sobre mi'
         proyects='Proyectos'
-        skill='Herramientas'
+        skill='Experiencia'
         contact='Contacto'
         linkedin='linkedin'
         github='github'
@@ -53,16 +53,16 @@ function App() {
       />
 
       <About
-        aboutme='Experiencia'
+        aboutme='Sobre mi...'
         url='obmoreno89.com'
-        folder='Sobre mi...'
+        folder='Portafolio'
         iconHtml='html'
         index='index.html'
         iconCss='css'
         style='style.css'
         openArticle='<article>'
         openP1='<p>'
-        information1='Soy un desarrollador web mexicano con 5 meses de experiencia en creación de sitios web, constantemente me encuentro fortaleciendo mis habilidades como programador y trabajando con equipos apasionados con la tecnología.'
+        information1='Soy un desarrollador web mexicano con experiencia en creación de sitios web, constantemente me encuentro fortaleciendo mis habilidades como programador y trabajando con equipos apasionados con la tecnología.'
         closedP1='</p>'
         openP2='<p>'
         information2='Me gusta aprovechar todos los recursos online, con el objetivo de ser un desarrollador capaz de encontrar soluciones, sostificadas a problemas complejos y/o robustos'
@@ -70,16 +70,9 @@ function App() {
         closedArticle='</article>'
       />
 
-      <Skill skill='Herramientas'>
+      <Skill skill='Experiencia laboral'>
         <Carousel breakPoints={breakPoints}>
-          <SkillLogo title='HTML' level='Intermedio' language='html' />
-          <SkillLogo title='CSS' level='Intermedio' language='css' />
-          <SkillLogo title='JavaScript' level='Intermedio' language='js' />
-          <SkillLogo title='React' level='Intermedio' language='react' />
-          <SkillLogo title='Tailwind' level='Intermedio' language='tailwind' />
-          <SkillLogo title='Python' level='Basico' language='python' />
-          <SkillLogo title='MySQL' level='Basico' language='mysql' />
-          <SkillLogo title='Git' level='Intermedio' language='git' />
+          <SkillLogo title='Hubmine' level='Actualmente' language='hubmine' />
         </Carousel>
       </Skill>
 
