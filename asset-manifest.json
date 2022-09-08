@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.06b82008.css",
-    "main.js": "/portafolio/static/js/main.6549d71b.js",
+    "main.js": "/portafolio/static/js/main.5c26ce07.js",
     "static/media/obm.png": "/portafolio/static/media/obm.66a58e40fdf714e92733.png",
     "static/media/proyect-2.png": "/portafolio/static/media/proyect-2.d7fa6b22e58199380965.png",
     "static/media/background.jpg": "/portafolio/static/media/background.6af7d681c4880a6d5443.jpg",
@@ -10,8 +10,9 @@
     "static/media/proyect-3.png": "/portafolio/static/media/proyect-3.9dac5bef71422cada0f1.png",
     "static/media/tailwind.png": "/portafolio/static/media/tailwind.f0f26047a8933b822dae.png",
     "static/media/me.png": "/portafolio/static/media/me.3ddf86cdea2a6056e362.png",
+    "static/media/hubmine.png": "/portafolio/static/media/hubmine.a7b6bf03dfe075332c1c.png",
     "static/media/proyect-4.png": "/portafolio/static/media/proyect-4.03e00ee17a6725f17c64.png",
-    "static/media/CV-OBM.pdf": "/portafolio/static/media/CV-OBM.7142cdd2913cd42b9f96.pdf",
+    "static/media/CV-OBM.pdf": "/portafolio/static/media/CV-OBM.6388ef2d0cf91b210408.pdf",
     "static/media/git.png": "/portafolio/static/media/git.f3eeaf9f51c397a78181.png",
     "static/media/python.png": "/portafolio/static/media/python.6a5cbc319ab3ddf8ef92.png",
     "static/media/react.png": "/portafolio/static/media/react.86c8d9eba03e29814d2a.png",
@@ -27,10 +28,10 @@
     "static/media/hubmine.svg": "/portafolio/static/media/hubmine.cc18330bb61133d1db2b290472d66585.svg",
     "index.html": "/portafolio/index.html",
     "main.06b82008.css.map": "/portafolio/static/css/main.06b82008.css.map",
-    "main.6549d71b.js.map": "/portafolio/static/js/main.6549d71b.js.map"
+    "main.5c26ce07.js.map": "/portafolio/static/js/main.5c26ce07.js.map"
   },
   "entrypoints": [
     "static/css/main.06b82008.css",
-    "static/js/main.6549d71b.js"
+    "static/js/main.5c26ce07.js"
   ]
 }
