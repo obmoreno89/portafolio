@@ -78,15 +78,12 @@ function App() {
 
       <ProyectsHeader title='Proyectos'>
         <ProyectsLeft
-          titleSection='Layout Portafolio'
-          proyects='proyect-1'
-          description='Mini proyecto creado solo con HTML y CSS, en lo que se pone en práctica flexbox, grid y responsive design.'
-          code='Ver Codigo'
-          demo='Demo'
-          urlCode='https://github.com/obmoreno89/layout-protafolio'
-          urlDemo='https://obmoreno89.github.io/layout-protafolio/'>
-          <ProyectsIcon logo='css' />
-          <ProyectsIcon logo='html' />
+          titleSection='Hubmine supplier system'
+          proyects='hubmine'
+          description='Panel de control para que los proveedores tengan una mejor administración de sus productos y una lógica de las plantas de recolección.'>
+          <ProyectsIcon logo='react' />
+          <ProyectsIcon logo='tailwind' />
+          <ProyectsIcon logo='js' />
         </ProyectsLeft>
 
         <ProyectsRight
@@ -125,6 +122,7 @@ function App() {
           urlDemo='https://obmoreno89.github.io/rick-morty/'>
           <ProyectsIcon logo='react' />
           <ProyectsIcon logo='css' />
+          <ProyectsIcon logo='js' />
         </ProyectsRight>
 
         <ProyectsLeft
