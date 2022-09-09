@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.06b82008.css",
-    "main.js": "/portafolio/static/js/main.939e074f.js",
+    "main.js": "/portafolio/static/js/main.4f738715.js",
     "static/media/obm.png": "/portafolio/static/media/obm.66a58e40fdf714e92733.png",
     "static/media/proyect-2.png": "/portafolio/static/media/proyect-2.d7fa6b22e58199380965.png",
     "static/media/background.jpg": "/portafolio/static/media/background.6af7d681c4880a6d5443.jpg",
@@ -23,15 +23,16 @@
     "static/media/bootstrap.png": "/portafolio/static/media/bootstrap.268c4375260420e8d982.png",
     "static/media/js.png": "/portafolio/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/github.svg": "/portafolio/static/media/github.b8bc8fe325bfa54bea07.svg",
+    "static/media/redux.svg": "/portafolio/static/media/redux.42f385158a306c04975dd44fddb247db.svg",
     "static/media/twitter.svg": "/portafolio/static/media/twitter.47b6d399e84f022e44ae.svg",
     "static/media/linkedin.svg": "/portafolio/static/media/linkedin.dac90ea12522093efdd5.svg",
-    "static/media/hubmine.svg": "/portafolio/static/media/hubmine.cc18330bb61133d1db2b290472d66585.svg",
+    "static/media/hubmine.svg": "/portafolio/static/media/hubmine.cc18330bb61133d1db2b.svg",
     "index.html": "/portafolio/index.html",
     "main.06b82008.css.map": "/portafolio/static/css/main.06b82008.css.map",
-    "main.939e074f.js.map": "/portafolio/static/js/main.939e074f.js.map"
+    "main.4f738715.js.map": "/portafolio/static/js/main.4f738715.js.map"
   },
   "entrypoints": [
     "static/css/main.06b82008.css",
-    "static/js/main.939e074f.js"
+    "static/js/main.4f738715.js"
   ]
 }
