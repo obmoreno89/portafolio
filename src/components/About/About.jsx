@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './About.css';
-import hubmine from '../../asset/icon/hubmine.svg';
 import html from '../../asset/icon/html.png';
 import css from '../../asset/icon/css.png';
 import js from '../../asset/icon/js.png';
@@ -11,6 +10,7 @@ import tailwind from '../../asset/icon/tailwind.png';
 import python from '../../asset/icon/python.png';
 import mysql from '../../asset/icon/mysql.png';
 import git from '../../asset/icon/git.png';
+import redux from '../../asset/icon/redux.svg';
 
 function About(props) {
   useEffect(() => {
@@ -25,9 +25,11 @@ function About(props) {
             <h1>{props.aboutme}</h1>
           </article>
         </div>
-        <article>
-          <h1 className='title-skill'>Herramientas</h1>
-        </article>
+        <div data-aos='fade-up'>
+          <article>
+            <h1 className='title-skill'>Herramientas</h1>
+          </article>
+        </div>
       </div>
       <div className='container-aboutme' id='about'>
         <div className='container-aboutme-title'>
@@ -105,7 +107,7 @@ function About(props) {
               <img src={react} alt='React.js' />
             </div>
             <div className='container-skill-logo'>
-              <span>tailwind</span>
+              <span>Tailwind</span>
               <img src={tailwind} alt='Tailwind' />
             </div>
           </figure>
@@ -115,16 +117,16 @@ function About(props) {
               <img src={python} alt='Python' />
             </div>
             <div className='container-skill-logo'>
-              <span>MysQl</span>
+              <span>MySql</span>
               <img src={mysql} alt='Mysql' />
             </div>
             <div className='container-skill-logo'>
               <span>Git</span>
               <img src={git} alt='git' />
             </div>
-            <div className='container-skill-logo ' id='hidden'>
-              <span>Git</span>
-              <img src={git} alt='git' />
+            <div className='container-skill-logo'>
+              <span>Redux</span>
+              <img src={redux} alt='git' />
             </div>
             <div className='container-skill-logo' id='hidden'>
               <span>Git</span>
