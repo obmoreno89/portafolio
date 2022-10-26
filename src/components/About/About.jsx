@@ -11,6 +11,8 @@ import python from '../../asset/icon/python.png';
 import mysql from '../../asset/icon/mysql.png';
 import git from '../../asset/icon/git.png';
 import redux from '../../asset/icon/redux.svg';
+import figma from '../../asset/icon/figma.svg';
+import sass from '../../asset/icon/sass.svg';
 
 function About(props) {
   useEffect(() => {
@@ -113,12 +115,12 @@ function About(props) {
           </figure>
           <figure className='about-me-skill-second'>
             <div className='container-skill-logo'>
-              <span>Python</span>
-              <img src={python} alt='Python' />
+              <span>SaSS</span>
+              <img src={sass} alt='sass' />
             </div>
             <div className='container-skill-logo'>
-              <span>MySql</span>
-              <img src={mysql} alt='Mysql' />
+              <span>Python</span>
+              <img src={python} alt='Python' />
             </div>
             <div className='container-skill-logo'>
               <span>Git</span>
@@ -128,9 +130,9 @@ function About(props) {
               <span>Redux</span>
               <img src={redux} alt='git' />
             </div>
-            <div className='container-skill-logo' id='hidden'>
-              <span>Git</span>
-              <img src={git} alt='git' />
+            <div className='container-skill-logo'>
+              <span>Figma</span>
+              <img src={figma} alt='figma' />
             </div>
           </figure>
         </div>
