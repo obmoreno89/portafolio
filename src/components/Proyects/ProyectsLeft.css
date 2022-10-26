@@ -189,6 +189,11 @@
         justify-content: space-evenly;
         padding: 40px;
         align-items: center;
+        gap: 16px;
+    }
+
+    .container-proyects-description h1{
+        text-align: center;
     }
 
     .container-proyects-icon { 
