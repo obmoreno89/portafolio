@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import pdf from '../../asset/pdf/CV-OBM.pdf';
+import pdf from '../../asset/pdf/OBM-CV-2023.pdf';
 import './AboutMe.css';
 
 function AboutMe(props) {
@@ -14,13 +14,15 @@ function AboutMe(props) {
             className='container-profession'
             initial={{ x: -900 }}
             animate={{ x: 0 }}
-            transition={{ type: 'spring', stiffness: 100 }}>
+            transition={{ type: 'spring', stiffness: 100 }}
+          >
             {props.profession}
           </motion.h1>
           <motion.p
             initial={{ x: -300 }}
             animate={{ x: 0 }}
-            transition={{ type: 'spring', stiffness: 100 }}>
+            transition={{ type: 'spring', stiffness: 100 }}
+          >
             <a href={pdf} download>
               {props.cv}
             </a>

@@ -72,56 +72,65 @@ function App() {
 
       <Skill skill='Experiencia laboral'>
         <Carousel breakPoints={breakPoints}>
-          <SkillLogo title='Hubmine' level='Actualmente' language='hubmine' />
+          <SkillLogo
+            title='Hubmine'
+            level='Enero 2022 - Octubre 2022'
+            language='hubmine'
+          />
+          <SkillLogo
+            title='Syncronik'
+            level='Octubre 2022 - Actualmente'
+            language='syncronik'
+          />
         </Carousel>
       </Skill>
 
       <ProyectsHeader title='Proyectos'>
         <ProyectsLeft
-          titleSection='Hubmine supplier system'
+          titleSection='HUBMINE SUPPLIER SYSTEM'
           proyects='hubmine'
-          description='Panel de control para que los proveedores tengan una mejor administración de sus productos y una lógica de las plantas de recolección.'>
+          description='Panel de control para que los proveedores tengan una mejor administración de sus productos y una lógica de las plantas de recolección.'
+        >
           <ProyectsIcon logo='react' />
           <ProyectsIcon logo='tailwind' />
           <ProyectsIcon logo='js' />
         </ProyectsLeft>
 
         <ProyectsRight
+          title='MP PRO SYSTEM'
+          description='Sistema creado con el objetivo de llevar una mejor planeación de las actividades y visualización de Kpis de la empresa.'
+          proyects='mpPro'
+        >
+          <ProyectsIcon logo='react' />
+          <ProyectsIcon logo='tailwind' />
+          <ProyectsIcon logo='js' />
+        </ProyectsRight>
+
+        <ProyectsLeft
           title='The Bank'
           description='Es un proyecto en el cual se simulan las operaciones de un banco, con un login para ingresar a la cuenta'
           code='Ver Codigo'
           demo='Demo'
           proyects='proyect-2'
           urlCode='https://github.com/obmoreno89/the-bank'
-          urlDemo='https://obmoreno89.github.io/the-bank/'>
+          urlDemo='https://obmoreno89.github.io/the-bank/'
+        >
           <ProyectsIcon logo='html' />
           <ProyectsIcon logo='css' />
           <ProyectsIcon logo='js' />
-        </ProyectsRight>
+        </ProyectsLeft>
 
-        <ProyectsLeft
+        <ProyectsRight
           titleSection='Pig Game'
           proyects='proyect-3'
           description=' Un juego de dados de riesgo muy simple en el que dos jugadores compiten para llegar a 100 puntos.'
           code='Ver Codigo'
           demo='Demo'
           urlCode='https://github.com/obmoreno89/pig-game'
-          urlDemo='https://obmoreno89.github.io/pig-game/'>
+          urlDemo='https://obmoreno89.github.io/pig-game/'
+        >
           <ProyectsIcon logo='css' />
           <ProyectsIcon logo='html' />
-          <ProyectsIcon logo='js' />
-        </ProyectsLeft>
-
-        <ProyectsRight
-          title='Rick & Morty'
-          description='Un proyecto en el cual extraemos la información por medio de una API'
-          code='Ver Codigo'
-          demo='Demo'
-          proyects='proyect-4'
-          urlCode='https://github.com/obmoreno89/rick-morty'
-          urlDemo='https://obmoreno89.github.io/rick-morty/'>
-          <ProyectsIcon logo='react' />
-          <ProyectsIcon logo='css' />
           <ProyectsIcon logo='js' />
         </ProyectsRight>
 
@@ -132,25 +141,13 @@ function App() {
           code='Ver Codigo'
           demo='Demo'
           urlCode='https://github.com/obmoreno89/weather'
-          urlDemo='https://obmoreno89.github.io/weather/'>
+          urlDemo='https://obmoreno89.github.io/weather/'
+        >
           <ProyectsIcon logo='css' />
           <ProyectsIcon logo='html' />
           <ProyectsIcon logo='js' />
           <ProyectsIcon logo='tailwind' />
         </ProyectsLeft>
-
-        <ProyectsRight
-          title='Geometric Figures'
-          description='Proyecto para calcular el area y el perimetro de un cuadrado y un triangulo, así como el radio de un circulo'
-          code='Ver Codigo'
-          demo='Demo'
-          proyects='proyect-6'
-          urlCode='https://github.com/obmoreno89/geometric-figure'
-          urlDemo='https://obmoreno89.github.io/geometric-figure/'>
-          <ProyectsIcon logo='html' />
-          <ProyectsIcon logo='css' />
-          <ProyectsIcon logo='js' />
-        </ProyectsRight>
       </ProyectsHeader>
 
       <Contact
