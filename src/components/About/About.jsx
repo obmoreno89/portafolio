@@ -8,7 +8,6 @@ import js from '../../asset/icon/js.png';
 import react from '../../asset/icon/react.png';
 import tailwind from '../../asset/icon/tailwind.png';
 import python from '../../asset/icon/python.png';
-import mysql from '../../asset/icon/mysql.png';
 import git from '../../asset/icon/git.png';
 import redux from '../../asset/icon/redux.svg';
 import figma from '../../asset/icon/figma.svg';
