@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import pdf from '../../asset/pdf/OBM-CV-2023.pdf';
 import './AboutMe.css';
-
+//comentario
 function AboutMe(props) {
   return (
     <main>
