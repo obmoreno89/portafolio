@@ -59,7 +59,7 @@ function App() {
         iconHtml='html'
         index='index.html'
         iconCss='css'
-        style='style.css'
+        nameStyle='style.css'
         openArticle='<article>'
         openP1='<p>'
         information1='Soy un desarrollador web mexicano con experiencia en creación de sitios web, constantemente me encuentro fortaleciendo mis habilidades como programador y trabajando con equipos apasionados con la tecnología.'
