@@ -24,72 +24,72 @@ function App() {
   return (
     <div className='App'>
       <Menu
-        about='Sobre mi'
-        proyects='Proyectos'
-        skill='Experiencia'
-        contact='Contacto'
+        about='About me'
+        proyects='Projects'
+        skill='Work experience'
+        contact='Contact'
         linkedin='linkedin'
         github='github'
         twitter='twitter'
       />
 
       <AboutMe
-        hello='¡Hola!'
-        name='Soy Omar Barragán'
+        hello='¡Hi!'
+        name='I am Omar Barragán'
         profession='Frontend Developer.'
-        cv='Descargar CV'
+        cv='Download CV'
         url='obmoreno89.com'
-        personal='.DatosPersonales'
+        personal='.Personal Information'
         mail='Email:'
         adress='obmoreno89@gmail.com'
-        city=' Localidad:'
+        city=' City:'
         country='Orizaba, Veracruz'
-        education='.Educación'
+        education='.Education'
         school=' UNADM:'
-        engineer='Ingeniería en Desarrollo de Software'
+        engineer='Software Develoment Engineering'
         plataform='Platzi:'
         especiality='Frontend Courses'
         photo='obm'
       />
 
       <About
-        aboutme='Sobre mi...'
+        aboutme='About me...'
         url='obmoreno89.com'
-        folder='Portafolio'
+        folder='Portfolio'
         iconHtml='html'
         index='index.html'
         iconCss='css'
         nameStyle='style.css'
         openArticle='<article>'
         openP1='<p>'
-        information1='Soy un desarrollador web mexicano con experiencia en creación de sitios web, constantemente me encuentro fortaleciendo mis habilidades como programador y trabajando con equipos apasionados con la tecnología.'
+        information1='I am a Mexican web developer with experience building websites, I constantly find myself strengthening my skills as a programmer and working with teams that are passionate about technology.'
         closedP1='</p>'
         openP2='<p>'
-        information2='Me gusta aprovechar todos los recursos online, con el objetivo de ser un desarrollador capaz de encontrar soluciones, sostificadas a problemas complejos y/o robustos'
+        information2='I like to take advantage of all the online resources, with the aim of being a developer capable of finding sustained solutions to complex and/or robust problems.'
         closedP2='</p>'
         closedArticle='</article>'
       />
 
-      <Skill skill='Experiencia laboral'>
+      <Skill skill='Work Experience'>
         <Carousel breakPoints={breakPoints}>
           <SkillLogo
             title='Hubmine'
-            level='Enero 2022 - Octubre 2022'
+            level='January 2022 - October 2022'
             language='hubmine'
           />
           <SkillLogo
             title='Syncronik'
-            level='Octubre 2022 - Actualmente'
+            level='October 2022 - Actualy'
             language='syncronik'
           />
         </Carousel>
       </Skill>
 
-      <ProyectsHeader title='Proyectos'>
+      <ProyectsHeader title='Projects'>
         <ProyectsLeft
           titleSection='HUBMINE SUPPLIER SYSTEM'
           proyects='hubmine'
-          description='Panel de control para que los proveedores tengan una mejor administración de sus productos y una lógica de las plantas de recolección.'
+          description='Control panel so that suppliers have a better administration of their products and a logic of the collection plants.'
         >
           <ProyectsIcon logo='react' />
           <ProyectsIcon logo='tailwind' />
@@ -98,7 +98,7 @@ function App() {
 
         <ProyectsRight
           title='MP PRO SYSTEM'
-          description='Sistema creado con el objetivo de llevar una mejor planeación de las actividades y visualización de Kpis de la empresa.'
+          description='System created with the objective of carrying out a better planning of the activities and visualization of the company´s KPIs.'
           proyects='mpPro'
         >
           <ProyectsIcon logo='react' />
@@ -108,8 +108,8 @@ function App() {
 
         <ProyectsLeft
           title='The Bank'
-          description='Es un proyecto en el cual se simulan las operaciones de un banco, con un login para ingresar a la cuenta'
-          code='Ver Codigo'
+          description='It is a project in which the operations of a bank are simulated, with a login to enter the account'
+          code='look Code'
           demo='Demo'
           proyects='proyect-2'
           urlCode='https://github.com/obmoreno89/the-bank'
@@ -123,8 +123,8 @@ function App() {
         <ProyectsRight
           titleSection='Pig Game'
           proyects='proyect-3'
-          description=' Un juego de dados de riesgo muy simple en el que dos jugadores compiten para llegar a 100 puntos.'
-          code='Ver Codigo'
+          description='A very simple risk dice game where two players compete to reach 100 points.'
+          code='look Code'
           demo='Demo'
           urlCode='https://github.com/obmoreno89/pig-game'
           urlDemo='https://obmoreno89.github.io/pig-game/'
@@ -137,8 +137,8 @@ function App() {
         <ProyectsLeft
           titleSection='Status Weather'
           proyects='proyect-5'
-          description='Proyecto en el cual realizamos una peticiones a una API, solicitando el estado del clima de un pais'
-          code='Ver Codigo'
+          description='Project in which we make a request to an API, requesting the weather status of a country'
+          code='look Code'
           demo='Demo'
           urlCode='https://github.com/obmoreno89/weather'
           urlDemo='https://obmoreno89.github.io/weather/'
@@ -151,14 +151,14 @@ function App() {
       </ProyectsHeader>
 
       <Contact
-        title='Contacto'
-        titleInformation='¿Tienes un proyecto en mente? ¡Hagámoslo realidad!'
-        textContact='¡Me gustaría tener tu contacto!'
+        title='Contact'
+        titleInformation='Do you have a project in mind? Lets make it happen!'
+        textContact='I would like to have your contact!'
         linkedin='linkedin'
         github='github'
         twitter='twitter'
-        meDev='Omar Barragán Moreno - Desarrollador Web'
-        copyright='2022 - Todos los derechos reservados'
+        meDev='Omar Barragán Moreno - Software Engineer'
+        copyright='2022 - All rights reserved'
       />
     </div>
   );

@@ -66,7 +66,7 @@ function About(props) {
                     src={require(`../../asset/icon/${props.iconCss}.png`)}
                     alt='icono css'
                   />
-                  {props.style}
+                  {props.nameStyle}
                 </p>
               </div>
               <div className='container-html'>
