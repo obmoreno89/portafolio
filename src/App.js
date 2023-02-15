@@ -79,7 +79,7 @@ function App() {
           />
           <SkillLogo
             title='Syncronik'
-            level='October 2022 - Actualy'
+            level='October 2022 - Actually'
             language='syncronik'
           />
         </Carousel>
