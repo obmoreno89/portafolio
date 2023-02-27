@@ -28,7 +28,7 @@ function About(props) {
         </div>
         <div data-aos='fade-up'>
           <article>
-            <h1 className='title-skill'>Herramientas</h1>
+            <h1 className='title-skill'>Tools</h1>
           </article>
         </div>
       </div>
