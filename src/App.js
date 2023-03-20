@@ -74,12 +74,12 @@ function App() {
         <Carousel breakPoints={breakPoints}>
           <SkillLogo
             title='Hubmine'
-            level='January 2022 - October 2022'
+            level='September 2021 - March 2022'
             language='hubmine'
           />
           <SkillLogo
             title='Syncronik'
-            level='October 2022 - Actually'
+            level='April 2022 - Actually'
             language='syncronik'
           />
         </Carousel>
