@@ -11,7 +11,7 @@ import ProyectsRight from './components/Proyects/ProyectsRight';
 import ProyectsHeader from './components/Proyects/ProyectsHeader';
 import ProyectsIcon from './components/Proyects/ProyectsIcon';
 import Contact from './components/Contact/Contact';
-//coment
+//comen
 function App() {
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
