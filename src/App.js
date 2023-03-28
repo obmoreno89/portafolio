@@ -105,7 +105,7 @@ function App() {
           <ProyectsIcon logo='tailwind' />
           <ProyectsIcon logo='js' />
         </ProyectsRight>
-        {/* comen */}
+
         <ProyectsLeft
           titleSection='The Bank'
           description='It is a project in which the operations of a bank are simulated, with a login to enter the account'
@@ -150,7 +150,7 @@ function App() {
           <ProyectsIcon logo='mongodb' />
         </ProyectsLeft>
       </ProyectsHeader>
-
+      {/* comit */}
       <Contact
         title='Contact'
         titleInformation='Do you have a project in mind? Lets make it happen!'
