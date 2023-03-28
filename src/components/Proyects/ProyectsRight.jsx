@@ -20,14 +20,16 @@ function ProyectsRight(props) {
             target='blank'
             rel='noopener noreferrer'
             href={props.urlCode}
-            style={{ textDecoration: 'none' }}>
+            style={{ textDecoration: 'none' }}
+          >
             {props.code}
           </Link>
           <Link
             target='blank'
             rel='noopener noreferrer'
             href={props.urlDemo}
-            style={{ textDecoration: 'none' }}>
+            style={{ textDecoration: 'none' }}
+          >
             {props.demo}
           </Link>
         </div>

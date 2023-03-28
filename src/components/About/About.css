@@ -1,5 +1,9 @@
 @import url('../css/Var.css');
 
+.icons-disable {
+  visibility: hidden;
+}
+
 .container-aboutme {
   width: 1440px;
   height: 660px;
@@ -16,7 +20,6 @@
   padding-left: 48px;
   display: grid;
   grid-template-columns: 1fr 1fr;
- 
 }
 
 .container-title-about h1 {
@@ -120,61 +123,62 @@
   padding: 34px;
   padding-left: 0px;
   height: 400px;
- 
 }
 
-.container-aboutme-image .about-me-skills{
+.container-aboutme-image .about-me-skills {
   width: 100%;
   gap: 60px;
   display: flex;
 }
 
-
-.container-aboutme-image .about-me-skills .container-skill-logo span{
+.container-aboutme-image .about-me-skills .container-skill-logo span {
   text-align: center;
   color: white;
   font-size: 1.6rem;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
-.container-aboutme-image .about-me-skills .container-skill-logo{
+.container-aboutme-image .about-me-skills .container-skill-logo {
   display: flex;
   flex-direction: column;
 }
-.about-me-skill-second{
+.about-me-skill-second {
   width: 100%;
   display: flex;
   gap: 60px;
 }
 
-.about-me-skill-second .container-skill-logo{
+.about-me-skill-three {
+  width: 100%;
+  display: flex;
+  gap: 60px;
+}
+
+.about-me-skill-second .container-skill-logo {
   display: flex;
   flex-direction: column;
 }
 
-.about-me-skill-second .container-skill-logo span{
+.about-me-skill-second .container-skill-logo span {
   text-align: center;
   color: white;
   font-size: 1.6rem;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
-.container-aboutme-image .about-me-skills img{
+.container-aboutme-image .about-me-skills img {
   width: 65px;
   height: 65px;
-  
 }
 
-.container-aboutme-image .about-me-skill-second img{
+.container-aboutme-image .about-me-skill-second img {
   width: 65px;
   height: 65px;
-  
 }
 
-#hidden{
+#hidden {
   visibility: hidden;
- }
-
+}
 
 @media screen and (min-width: 1329px) and (max-width: 1439px) {
   .container-aboutme {
@@ -241,9 +245,9 @@
     font-size: 1.5rem;
   }
 
-  #hidden{
+  #hidden {
     visibility: hidden;
-   }
+  }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1328px) {
@@ -313,46 +317,39 @@
     width: 205px;
     height: 215px;
   }
-  
+
   .container-window-experiencie h3 {
     font-size: 1.6rem;
   }
-  
+
   .container-window-experiencie h5 {
     font-size: 1.5rem;
   }
 
-  .container-aboutme-image{
+  .container-aboutme-image {
     width: 100%;
-   
   }
-  
+
   .container-aboutme-image .about-me-skills {
     gap: 0px;
     display: flex;
     justify-content: space-around;
-   
   }
 
   .container-aboutme-image .about-me-skill-second {
-   
     gap: 0px;
     display: flex;
     justify-content: space-around;
   }
 
-  .title-skill{
+  .title-skill {
     margin-left: 50px;
   }
 
-#hidden{
- visibility: hidden;
+  #hidden {
+    visibility: hidden;
+  }
 }
-}
-
-
-
-
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .container-aboutme {
@@ -374,10 +371,9 @@
     width: 98%;
   }
 
-  .container-title-about .title-skill{
+  .container-title-about .title-skill {
     display: none;
   }
-
 
   .container-window-experiencie {
     width: 220px;
@@ -402,41 +398,39 @@
     padding: 0px;
     margin-top: 70px;
   }
-  #hidden{
+  #hidden {
     visibility: hidden;
-   }
+  }
 
-   .container-aboutme-image .about-me-skills {
-   gap: 0px;
-    display: flex;
-    justify-content: space-around;
-   }
-
-   .about-me-skill-second {
+  .container-aboutme-image .about-me-skills {
     gap: 0px;
     display: flex;
     justify-content: space-around;
-}
+  }
 
-   .container-aboutme-image .about-me-skills img {
+  .about-me-skill-second {
+    gap: 0px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .container-aboutme-image .about-me-skills img {
     width: 80px;
     height: 80px;
-}
+  }
 
-.container-aboutme-image .about-me-skills .container-skill-logo span {
- 
-  font-size: 2.0rem;
-  
-}
+  .container-aboutme-image .about-me-skills .container-skill-logo span {
+    font-size: 2rem;
+  }
 
-.container-aboutme-image .about-me-skill-second img {
-  width: 80px;
+  .container-aboutme-image .about-me-skill-second img {
+    width: 80px;
     height: 80px;
-}
+  }
 
-.about-me-skill-second .container-skill-logo span {
-  font-size: 2.0rem;
-}
+  .about-me-skill-second .container-skill-logo span {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
@@ -462,10 +456,10 @@
     margin-bottom: 20px;
   }
 
-  .container-title-about .title-skill{
+  .container-title-about .title-skill {
     display: none;
   }
-  
+
   .container-aboutme-title {
     position: relative;
     padding-left: 10px;
@@ -477,8 +471,6 @@
     width: 100%;
     font-size: 3.5rem;
   }
-
-  
 
   .container-aboutme-description {
     width: 100%;
@@ -525,24 +517,22 @@
 
   .container-aboutme-image {
     flex-direction: column;
-}
+  }
 
-.container-aboutme-image .about-me-skills {
-  gap: 0px;
-  justify-content: space-evenly;
-  margin-bottom: 30px;
-}
+  .container-aboutme-image .about-me-skills {
+    gap: 0px;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+  }
 
-.about-me-skill-second {
+  .about-me-skill-second {
+    justify-content: space-evenly;
+    gap: 0px;
+  }
 
-  justify-content: space-evenly;
- gap: 0px;
-}
-
-#hidden{
-  visibility: hidden;
- }
- 
+  #hidden {
+    visibility: hidden;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
@@ -566,10 +556,10 @@
     font-size: 3.5rem;
     color: var(--white);
     margin-bottom: 20px;
-   width: 200px;
+    width: 200px;
   }
 
-  .container-title-about .title-skill{
+  .container-title-about .title-skill {
     display: none;
   }
 
@@ -631,42 +621,39 @@
   .container-aboutme-image .about-me-skills img {
     width: 40px;
     height: 40px;
-}
+  }
 
-.container-aboutme-image .about-me-skills .container-skill-logo span {
- 
-  font-size: 1.1rem;
-  
-}
+  .container-aboutme-image .about-me-skills .container-skill-logo span {
+    font-size: 1.1rem;
+  }
 
-.container-aboutme-image .about-me-skill-second img {
-  width: 40px;
+  .container-aboutme-image .about-me-skill-second img {
+    width: 40px;
     height: 40px;
-}
+  }
 
-.about-me-skill-second .container-skill-logo span {
-  font-size: 1.1rem;
-}
-
+  .about-me-skill-second .container-skill-logo span {
+    font-size: 1.1rem;
+  }
 
   .container-aboutme-image {
     flex-direction: column;
     margin-top: 0px;
-}
+  }
 
-.container-aboutme-image .about-me-skills {
-  gap: 0px;
-  justify-content: space-evenly;
-  margin-bottom: 20px;
-}
+  .container-aboutme-image .about-me-skills {
+    gap: 0px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
 
-.about-me-skill-second {
+  .about-me-skill-second {
+    justify-content: space-evenly;
+    gap: 0px;
+    margin-bottom: 15px;
+  }
 
-  justify-content: space-evenly;
- gap: 0px;
-}
-
-#hidden{
-  visibility: hidden;
- }
+  #hidden {
+    visibility: hidden;
+  }
 }

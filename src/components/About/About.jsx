@@ -12,6 +12,10 @@ import git from '../../asset/icon/git.png';
 import redux from '../../asset/icon/redux.svg';
 import figma from '../../asset/icon/figma.svg';
 import sass from '../../asset/icon/sass.svg';
+import nodejs from '../../asset/icon/nodejs.svg';
+import express from '../../asset/icon/express.svg';
+import mongodb from '../../asset/icon/mongodb.svg';
+import mysql from '../../asset/icon/mysql.png';
 
 function About(props) {
   useEffect(() => {
@@ -28,7 +32,7 @@ function About(props) {
         </div>
         <div data-aos='fade-up'>
           <article>
-            <h1 className='title-skill'>Herramientas</h1>
+            <h1 className='title-skill'>Tools</h1>
           </article>
         </div>
       </div>
@@ -66,7 +70,7 @@ function About(props) {
                     src={require(`../../asset/icon/${props.iconCss}.png`)}
                     alt='icono css'
                   />
-                  {props.style}
+                  {props.nameStyle}
                 </p>
               </div>
               <div className='container-html'>
@@ -130,6 +134,28 @@ function About(props) {
               <img src={redux} alt='git' />
             </div>
             <div className='container-skill-logo'>
+              <span>Figma</span>
+              <img src={figma} alt='figma' />
+            </div>
+          </figure>
+          <figure className='about-me-skill-second'>
+            <div className='container-skill-logo'>
+              <span>Node.js</span>
+              <img src={nodejs} alt='Node.js' />
+            </div>
+            <div className='container-skill-logo'>
+              <span>Express</span>
+              <img src={express} alt='Express' />
+            </div>
+            <div className='container-skill-logo'>
+              <span>MongoDB</span>
+              <img src={mongodb} alt='mongoDB' />
+            </div>
+            <div className='container-skill-logo'>
+              <span>MySql</span>
+              <img src={mysql} alt='git' />
+            </div>
+            <div className='container-skill-logo icons-disable'>
               <span>Figma</span>
               <img src={figma} alt='figma' />
             </div>
