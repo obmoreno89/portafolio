@@ -150,7 +150,7 @@ function App() {
           <ProyectsIcon logo='mongodb' />
         </ProyectsLeft>
       </ProyectsHeader>
-      {/* com */}
+      {/* co*/}
       <Contact
         title='Contact'
         titleInformation='Do you have a project in mind? Lets make it happen!'
