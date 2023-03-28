@@ -107,7 +107,7 @@ function App() {
         </ProyectsRight>
 
         <ProyectsLeft
-          title='The Bank'
+          titleSection='The Bank'
           description='It is a project in which the operations of a bank are simulated, with a login to enter the account'
           code='look Code'
           demo='Demo'
@@ -121,7 +121,7 @@ function App() {
         </ProyectsLeft>
 
         <ProyectsRight
-          titleSection='Pig Game'
+          title='Pig Game'
           proyects='proyect-3'
           description='A very simple risk dice game where two players compete to reach 100 points.'
           code='look Code'

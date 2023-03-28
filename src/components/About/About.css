@@ -148,6 +148,12 @@
   gap: 60px;
 }
 
+.about-me-skill-three {
+  width: 100%;
+  display: flex;
+  gap: 60px;
+}
+
 .about-me-skill-second .container-skill-logo {
   display: flex;
   flex-direction: column;
@@ -644,6 +650,7 @@
   .about-me-skill-second {
     justify-content: space-evenly;
     gap: 0px;
+    margin-bottom: 15px;
   }
 
   #hidden {

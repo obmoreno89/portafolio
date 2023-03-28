@@ -15,6 +15,7 @@ import sass from '../../asset/icon/sass.svg';
 import nodejs from '../../asset/icon/nodejs.svg';
 import express from '../../asset/icon/express.svg';
 import mongodb from '../../asset/icon/mongodb.svg';
+import mysql from '../../asset/icon/mysql.png';
 
 function About(props) {
   useEffect(() => {
@@ -139,20 +140,20 @@ function About(props) {
           </figure>
           <figure className='about-me-skill-second'>
             <div className='container-skill-logo'>
+              <span>Node.js</span>
+              <img src={nodejs} alt='Node.js' />
+            </div>
+            <div className='container-skill-logo'>
+              <span>Express</span>
+              <img src={express} alt='Express' />
+            </div>
+            <div className='container-skill-logo'>
               <span>MongoDB</span>
               <img src={mongodb} alt='mongoDB' />
             </div>
             <div className='container-skill-logo'>
-              <span>Node.js</span>
-              <img src={nodejs} alt='Node' />
-            </div>
-            <div className='container-skill-logo'>
-              <span>Express</span>
-              <img src={express} alt='express' />
-            </div>
-            <div className='container-skill-logo icons-disable'>
-              <span>Redux</span>
-              <img src={redux} alt='git' />
+              <span>MySql</span>
+              <img src={mysql} alt='git' />
             </div>
             <div className='container-skill-logo icons-disable'>
               <span>Figma</span>
