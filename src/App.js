@@ -105,7 +105,7 @@ function App() {
           <ProyectsIcon logo='tailwind' />
           <ProyectsIcon logo='js' />
         </ProyectsRight>
-
+        {/* coment */}
         <ProyectsLeft
           titleSection='The Bank'
           description='It is a project in which the operations of a bank are simulated, with a login to enter the account'
