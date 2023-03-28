@@ -139,9 +139,9 @@ function App() {
           proyects='proyect-7'
           description='Web application to schedule events, you can perform the operations of a crud.'
           code='look Code'
-          // demo='Demo'
+          demo='Demo'
           urlCode='https://github.com/obmoreno89/calendar'
-          // urlDemo='https://obmoreno89.github.io/weather/'
+          urlDemo='https://calendar-node.netlify.app/auth/login'
         >
           <ProyectsIcon logo='js' />
           <ProyectsIcon logo='react' />
