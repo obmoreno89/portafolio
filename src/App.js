@@ -43,12 +43,12 @@ function App() {
         mail='Email:'
         adress='obmoreno89@gmail.com'
         city=' City:'
-        country='Orizaba, Veracruz'
+        country='Mexico'
         education='.Education'
         school=' UNADM:'
         engineer='Software Develoment Engineering'
-        plataform='Platzi:'
-        especiality='Frontend Courses'
+        // plataform='Platzi:'
+        // especiality='Frontend Courses'
         photo='obm'
       />
 
@@ -135,18 +135,19 @@ function App() {
         </ProyectsRight>
 
         <ProyectsLeft
-          titleSection='Status Weather'
-          proyects='proyect-5'
-          description='Project in which we make a request to an API, requesting the weather status of a country'
+          titleSection='Calendar app'
+          proyects='proyect-7'
+          description='Web application to schedule events, you can perform the operations of a crud.'
           code='look Code'
-          demo='Demo'
-          urlCode='https://github.com/obmoreno89/weather'
-          urlDemo='https://obmoreno89.github.io/weather/'
+          // demo='Demo'
+          urlCode='https://github.com/obmoreno89/calendar'
+          // urlDemo='https://obmoreno89.github.io/weather/'
         >
-          <ProyectsIcon logo='css' />
-          <ProyectsIcon logo='html' />
           <ProyectsIcon logo='js' />
-          <ProyectsIcon logo='tailwind' />
+          <ProyectsIcon logo='react' />
+          <ProyectsIcon logo='css' />
+          <ProyectsIcon logo='nodejs' />
+          <ProyectsIcon logo='mongodb' />
         </ProyectsLeft>
       </ProyectsHeader>
 

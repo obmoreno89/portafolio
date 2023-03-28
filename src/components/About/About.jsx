@@ -12,6 +12,9 @@ import git from '../../asset/icon/git.png';
 import redux from '../../asset/icon/redux.svg';
 import figma from '../../asset/icon/figma.svg';
 import sass from '../../asset/icon/sass.svg';
+import nodejs from '../../asset/icon/nodejs.svg';
+import express from '../../asset/icon/express.svg';
+import mongodb from '../../asset/icon/mongodb.svg';
 
 function About(props) {
   useEffect(() => {
@@ -130,6 +133,28 @@ function About(props) {
               <img src={redux} alt='git' />
             </div>
             <div className='container-skill-logo'>
+              <span>Figma</span>
+              <img src={figma} alt='figma' />
+            </div>
+          </figure>
+          <figure className='about-me-skill-second'>
+            <div className='container-skill-logo'>
+              <span>MongoDB</span>
+              <img src={mongodb} alt='mongoDB' />
+            </div>
+            <div className='container-skill-logo'>
+              <span>Node.js</span>
+              <img src={nodejs} alt='Node' />
+            </div>
+            <div className='container-skill-logo'>
+              <span>Express</span>
+              <img src={express} alt='express' />
+            </div>
+            <div className='container-skill-logo icons-disable'>
+              <span>Redux</span>
+              <img src={redux} alt='git' />
+            </div>
+            <div className='container-skill-logo icons-disable'>
               <span>Figma</span>
               <img src={figma} alt='figma' />
             </div>

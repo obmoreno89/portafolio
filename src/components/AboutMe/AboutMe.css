@@ -8,7 +8,7 @@
   margin: 0 auto;
 }
 
-#nav{
+#nav {
   margin-top: 75px;
 }
 
@@ -177,66 +177,62 @@
     height: 550px;
     margin-top: 75px;
   }
-  
+
   .container-title {
     width: 620px;
     height: 250px;
     margin-left: 20px;
   }
-  
+
   .container-title .container-hello {
     font-size: 4.5rem;
   }
-  
+
   .container-title .container-name {
     font-size: 4.5rem;
   }
-  
+
   .container-title .container-profession {
     font-size: 5.5rem;
   }
-  
+
   .container-title p {
     margin-top: 5px;
   }
-  
-  
+
   .container-window {
     width: 96%;
     height: 391px;
   }
-  
-  
-  
+
   .container-web .url-name {
     width: 250px;
     font-size: 1.3rem;
   }
-  
+
   .container-personal {
     height: 369px;
   }
-  
+
   .container-data {
     width: 300px;
     height: 270px;
   }
-  
+
   .container-personal .container-about {
     padding-left: 10px;
     font-size: 1.5rem;
     margin-bottom: 15px;
   }
-  
+
   .container-personal .container-about .aqua {
     margin-left: 15px;
     margin-bottom: 5px;
   }
-  
+
   .container-image {
     width: 100%;
     height: 300px;
-    
   }
   .container-image img {
     width: 170px;
@@ -250,73 +246,69 @@
     height: 550px;
     margin-top: 75px;
   }
-  
+
   .container-title {
     width: 520px;
     height: 250px;
     margin-left: 20px;
   }
-  
+
   .container-title .container-hello {
     font-size: 4rem;
   }
-  
+
   .container-title .container-name {
     font-size: 4rem;
   }
-  
+
   .container-title .container-profession {
     font-size: 4.8rem;
   }
-  
+
   .container-title p {
     margin-top: 5px;
   }
-  
-  
+
   .container-window {
     width: 96%;
     height: 391px;
   }
-  
-  
-  
+
   .container-web .url-name {
     width: 250px;
     font-size: 1.3rem;
   }
-  
+
   .container-personal {
     height: 369px;
   }
-  
+
   .container-data {
     width: 300px;
     height: 270px;
   }
-  
+
   .container-personal .container-about {
     padding-left: 10px;
     font-size: 1.5rem;
     margin-bottom: 15px;
   }
-  
+
   .container-personal .container-about .aqua {
     margin-left: 15px;
     margin-bottom: 5px;
   }
-  
+
   .container-image {
     width: 100%;
     height: 300px;
-    
   }
   .container-image img {
     height: 170px;
     width: 170px;
     right: 13px;
     position: relative;
-}
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -326,11 +318,11 @@
     display: flex;
     flex-direction: column;
   }
-  
-  #nav{
+
+  #nav {
     margin-top: 1px;
   }
-  
+
   .container-title {
     position: relative;
     width: 96.5%;
@@ -339,33 +331,33 @@
     margin-top: 40px;
     text-align: center;
   }
-  
+
   .container-title .container-hello {
     font-size: 4rem;
   }
-  
+
   .container-title .container-name {
     font-size: 4rem;
   }
-  
+
   .container-title .container-profession {
     font-size: 5rem;
   }
-  
+
   .container-title p {
     position: absolute;
     left: 0;
     right: 0;
     margin-right: auto;
     margin-left: auto;
-}
-  
+  }
+
   .container-window {
     width: 96.5%;
     margin-left: 10px;
     margin-top: 10px;
   }
-  
+
   .container-circle {
     width: 91%;
     height: 25px;
@@ -374,22 +366,20 @@
     align-items: center;
     margin-left: 10px;
   }
-  
+
   .container-web {
     width: 89%;
   }
-  
+
   .container-data {
     width: 370px;
   }
-    
+
   .container-image img {
     width: 200px;
     height: 200px;
   }
 }
-
-
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
   .container {
@@ -399,31 +389,30 @@
     flex-direction: column;
     justify-content: center;
   }
-  
+
   #nav {
     margin-top: 0px;
-}
+  }
 
   .container-title {
     width: 96%;
     height: 250px;
     margin-left: 14px;
     text-align: center;
-   
   }
-  
+
   .container-title .container-hello {
     font-size: 3.5rem;
   }
-  
+
   .container-title .container-name {
     font-size: 3.5rem;
   }
-  
+
   .container-title .container-profession {
     font-size: 4rem;
   }
-  
+
   .container-title p {
     width: 120px;
     left: 0;
@@ -431,11 +420,11 @@
     margin-right: auto;
     margin-left: auto;
   }
-  
+
   .container-title a {
     font-size: 1.5rem;
   }
-  
+
   .container-window {
     width: 96%;
     height: auto;
@@ -445,43 +434,39 @@
     margin-left: auto;
     margin-top: 20px;
   }
-  
+
   .container-circle {
     width: 85%;
   }
-  
+
   .container-web .url-name {
     width: 200px;
   }
-  
+
   .container-personal {
     width: 100%;
     height: 500px;
     display: flex;
     flex-direction: column-reverse;
   }
-  
+
   .container-data {
     width: 96%;
     height: 270px;
   }
-  
+
   .container-personal .container-about {
     padding-left: 10px;
   }
-  
+
   .container-personal .container-about .aqua {
     color: var(--aqua);
     margin-left: 15px;
     margin-bottom: 5px;
   }
-  
 }
 
-
-
-
-@media screen and (min-width: 320px) and (max-width: 480px){
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .container {
     width: 100%;
     height: auto;
@@ -489,31 +474,30 @@
     flex-direction: column;
     justify-content: center;
   }
-  
+
   #nav {
     margin-top: 0px;
-}
+  }
 
   .container-title {
     width: 100%;
     height: 250px;
     margin-left: 0px;
     text-align: center;
-   
   }
-  
+
   .container-title .container-hello {
     font-size: 3rem;
   }
-  
+
   .container-title .container-name {
     font-size: 3rem;
   }
-  
+
   .container-title .container-profession {
     font-size: 3rem;
   }
-  
+
   .container-title p {
     width: 120px;
     left: 0;
@@ -521,11 +505,11 @@
     margin-right: auto;
     margin-left: auto;
   }
-  
+
   .container-title a {
     font-size: 1.5rem;
   }
-  
+
   .container-window {
     width: 96%;
     height: auto;
@@ -535,36 +519,34 @@
     margin-left: auto;
     margin-top: 20px;
   }
-  
+
   .container-circle {
     width: 85%;
   }
-  
+
   .container-web .url-name {
     width: 200px;
   }
-  
+
   .container-personal {
     width: 100%;
     height: 500px;
     display: flex;
     flex-direction: column-reverse;
   }
-  
+
   .container-data {
     width: 96%;
     height: 290px;
   }
-  
+
   .container-personal .container-about {
     padding-left: 10px;
   }
-  
+
   .container-personal .container-about .aqua {
     color: var(--aqua);
     margin-left: 15px;
     margin-bottom: 5px;
   }
-  
 }
-
