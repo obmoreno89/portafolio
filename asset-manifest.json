@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.d3b965c4.css",
-    "main.js": "/portafolio/static/js/main.93411911.js",
+    "main.js": "/portafolio/static/js/main.cb39738a.js",
     "static/media/proyect-8.png": "/portafolio/static/media/proyect-8.bbc4495983ca4e84473f.png",
     "static/media/obm.png": "/portafolio/static/media/obm.66a58e40fdf714e92733.png",
     "static/media/hubmine.png": "/portafolio/static/media/hubmine.621544c76ed44647d14d.png",
@@ -16,7 +16,7 @@
     "static/media/me.png": "/portafolio/static/media/me.3ddf86cdea2a6056e362.png",
     "static/media/nodejs.png": "/portafolio/static/media/nodejs.93cc763ad1a4ea725702.png",
     "static/media/proyect-4.png": "/portafolio/static/media/proyect-4.03e00ee17a6725f17c64.png",
-    "static/media/OBM-CV-2023.pdf": "/portafolio/static/media/OBM-CV-2023.e0a9e8f99f5731d965ee.pdf",
+    "static/media/OBM-CV-2023.pdf": "/portafolio/static/media/OBM-CV-2023.ab19e8a22be2624aa750.pdf",
     "static/media/git.png": "/portafolio/static/media/git.f3eeaf9f51c397a78181.png",
     "static/media/python.png": "/portafolio/static/media/python.6a5cbc319ab3ddf8ef92.png",
     "static/media/react.png": "/portafolio/static/media/react.86c8d9eba03e29814d2a.png",
@@ -50,10 +50,10 @@
     "static/media/angular.svg": "/portafolio/static/media/angular.844d225acae0afd02d7033d7af89546a.svg",
     "static/media/tailwing.svg": "/portafolio/static/media/tailwing.717d7e811e2eaaa5785b50648353e9ae.svg",
     "main.d3b965c4.css.map": "/portafolio/static/css/main.d3b965c4.css.map",
-    "main.93411911.js.map": "/portafolio/static/js/main.93411911.js.map"
+    "main.cb39738a.js.map": "/portafolio/static/js/main.cb39738a.js.map"
   },
   "entrypoints": [
     "static/css/main.d3b965c4.css",
-    "static/js/main.93411911.js"
+    "static/js/main.cb39738a.js"
   ]
 }
