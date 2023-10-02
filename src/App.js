@@ -79,8 +79,13 @@ function App() {
           />
           <SkillLogo
             title='Syncronik'
-            level='April 2022 - Actually'
+            level='April 2022 - March 2023'
             language='syncronik'
+          />
+          <SkillLogo
+            title='Elektra'
+            level='April 2023 - Actually'
+            language='elektra'
           />
         </Carousel>
       </Skill>
@@ -107,6 +112,19 @@ function App() {
         </ProyectsRight>
 
         <ProyectsLeft
+          titleSection='Tpremia'
+          description='Project in which people redeem points to obtain rewards offered by the loyalty program'
+          code='look site'
+          proyects='proyect-8'
+          urlCode='https://www.tpremia.com.mx'
+        >
+          <ProyectsIcon logo='angular' />
+          <ProyectsIcon logo='typeScript' />
+          <ProyectsIcon logo='nodejs' />
+          <ProyectsIcon logo='js' />
+        </ProyectsLeft>
+
+        {/* <ProyectsLeft
           titleSection='The Bank'
           description='It is a project in which the operations of a bank are simulated, with a login to enter the account'
           code='look Code'
@@ -118,9 +136,9 @@ function App() {
           <ProyectsIcon logo='html' />
           <ProyectsIcon logo='css' />
           <ProyectsIcon logo='js' />
-        </ProyectsLeft>
+        </ProyectsLeft> */}
 
-        <ProyectsRight
+        {/* <ProyectsRight
           title='Pig Game'
           proyects='proyect-3'
           description='A very simple risk dice game where two players compete to reach 100 points.'
@@ -132,9 +150,9 @@ function App() {
           <ProyectsIcon logo='css' />
           <ProyectsIcon logo='html' />
           <ProyectsIcon logo='js' />
-        </ProyectsRight>
+        </ProyectsRight> */}
 
-        <ProyectsLeft
+        {/* <ProyectsLeft
           titleSection='Calendar app'
           proyects='proyect-7'
           description='Web application to schedule events, you can perform the operations of a crud.'
@@ -148,7 +166,7 @@ function App() {
           <ProyectsIcon logo='css' />
           <ProyectsIcon logo='nodejs' />
           <ProyectsIcon logo='mongodb' />
-        </ProyectsLeft>
+        </ProyectsLeft> */}
       </ProyectsHeader>
       {/* co*/}
       <Contact
