@@ -112,7 +112,7 @@ function App() {
         </ProyectsRight>
 
         <ProyectsLeft
-          titleSection='Tpremia'
+          titleSection='TPREMIA'
           description='Project in which people redeem points to obtain rewards offered by the loyalty program'
           code='look site'
           proyects='proyect-8'
